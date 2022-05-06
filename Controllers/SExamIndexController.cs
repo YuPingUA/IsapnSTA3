@@ -180,29 +180,28 @@ namespace ISpanSTA.Controllers
 
 
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult StartExam4(CStartExam2ViewModel rc)
+        public IActionResult StartExam4(CStartExam2ViewModel rc)
         {
-            int totalcount = rc.subject.Count();
+            //int totalcount = rc.subject.Count();
             try
             {
-                List<TRecord> list = new List<TRecord>();
-                for (int i = 0; i < totalcount; i++)
-                {
+                //List<TRecord> list = new List<TRecord>();
+                //for (int i = 0; i < totalcount; i++)
+                //{
                     TRecord ts = new TRecord();
-                    ts.FStudentId = rc.student.FStudentNumber;
-                    ts.FExamPaperId = rc.examp.FExamPaperId;
-                    ts.FSujectId = rc.subject[i].FSujectId;
+                    ts.FStudentId = rc.FStudentId;
+                    ts.FExamPaperId = rc.FExamPaperId;
+                    ts.FSujectId = rc.FSujectId;
                     ts.FDateTime = DateTime.Now;
-                    ts.FChoose = rc.FChoose_1;
-                    list.Add(ts);
-                }
+                    ts.FChoose = rc.FChoose;
+                    
+                //}
 
-                //_context.TRecords.Add(list);
+                _context.TRecords.Add(ts);
 
                 _context.SaveChanges();
-
-                return RedirectToAction(nameof(Index));
+                return Content("111");
+                //return RedirectToAction(nameof(Index));
             }
             catch
             {

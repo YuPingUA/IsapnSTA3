@@ -76,7 +76,7 @@
                 <div class="card-footer bg-transparent border-success">
                     @*<a href="#" class=" btn btn-info card-link">Card link</a>
                         <a href="#" class=" btn btn-outline-danger card-link">Another link</a>*@
-                    <button type="button" class="btn btn-outline-success"><i class="fas fa-sign-in-alt">@Html.ActionLink("進入考試", "StartExam4", new { id = item.FExamPaperId })</i></button>
+                    <button type="button" class="btn btn-outline-success" id="btnStart"><i class="fas fa-sign-in-alt">@Html.ActionLink("進入考試", "StartExam4", new { id = item.FExamPaperId })</i></button>
                     <button type="button" class="btn btn-outline-danger"><i class="fas fa-eye">@Html.ActionLink("查看結果", "Details", new { /* id=item.PrimaryKey */ })</i></button>
                 </div>
             </div>
@@ -126,5 +126,15 @@
             </tr>*@
     }
 </div>
-    @*</tbody>
-        </table>*@
+@*</tbody>
+    </table>*@
+
+@section Scripts {
+    <script>
+        $('#btnStart').click(function () {
+            
+        })
+    </script>
+
+}
+

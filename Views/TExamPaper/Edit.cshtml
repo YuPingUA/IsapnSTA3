@@ -210,11 +210,11 @@
                 selshowSj.options.add(opt);
 
             })
-            
+
             addBsj();
         }
 
-        
+
 
         function addBsj() {
 
@@ -226,6 +226,7 @@
                 @: $("#showSj>option[value='@ViewBag.sjIdBList[i]']").appendTo('#addSj');
                 @*@:  $("#addSj>option").attr("select", "selected");*@
                 //@: $("#showSj option[value='3']").appendTo('#addSj');
+                @*@:$("#addSj option").each(function () { $(this).attr("selected", true); });*@
                @:tempSj.push('@ViewBag.sjIdBList[i]')
              }
         }
@@ -258,19 +259,21 @@
                     //$("option:selected", this.value).appendTo('#showSj'); //追加給對方
                     //$("option:selected", this).appendTo('#showSj'); //追加給對方
                     $("#addSj>option:selected").appendTo('#showSj'); //.prop('selected');
+                    
                 });
-                ;
+                $("#addSj option").each(function () { $(this).attr("selected", true); });
+                
                 //雙擊選項
                 $('#showSj').dblclick(function () {
                     console.log("題目:" + ShowSj.options[ShowSj.selectedIndex].value);
                     tempSj.push(ShowSj.options[ShowSj.selectedIndex].value)
                     //$("option:selected", this.value).appendTo('#addSj');
                     //$("option:selected", this).appendTo('#addSj');
-                    $("#showSj>option:selected").appendTo('#addSj'); //.prop('selected');
+                    $("#showSj>option:selected").appendTo('#addSj'); //.prop('selected');                   
+                    console.log(tempSj)                    
 
-                    console.log(tempSj)
                 });
-
+                
             });
 
 

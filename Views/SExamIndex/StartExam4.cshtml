@@ -41,7 +41,7 @@
                                                         <div class="col-md-12">
                                                             <br /><br />
                                                             <div id="text" class="row">
-                                                                <input type="hidden" asp-for="@Model.subject[i].FSujectId" class="form-control" />
+                                                                <input type="hidden"  value="@Model.subject[i].FSujectId" class="form-control" />
                                                                 <a class="font-weight-bold">Q @count：@Model.subject[i].FQuestion</a>
                                                             </div>
                                                             <br />
@@ -178,7 +178,9 @@
                                 <!-- 交卷部分開始 -->
                                 @*<button class="btn btn-primary btn-block">提交</button>*@
                                 <div class="form-group">
-                                    <input type="submit" value="提交" class="btn btn-primary btn-block" />
+                                    @*<input type="submit" value="提交" class="btn btn-primary btn-block" />*@
+                                    <button class="btn btn-primary btn-block" id="btnSubmit">提交</button>
+                                    
                                 </div>
                                 <!-- 交卷部分结束 -->
                             </div>
@@ -193,11 +195,10 @@
 </div>
 
 
-<input type="hidden" id="FStudentNumber" name="FStudentNumber" />
-<input type="hidden" id="FExamPaperId" name="FExamPaperId" />
-<input type="hidden" id="FSujectID" name="FSujectID" />
-<input type="hidden" id="FDateTime" name="FDateTime" />
-<input type="hidden" id="FChoose" name="FChoose" />
+    <input type="hidden" id="FStudentId" name="FStudentId" />
+    <input type="hidden" id="FExamPaperId" name="FExamPaperId" />
+    <input type="hidden" id="FSujectId" name="FSujectId" />
+    <input type="hidden" id="FChoose" name="FChoose" />
 
 
 
@@ -207,15 +208,43 @@
 
         $(".form-check-input").click(function () {
 
-            console.log(($(this).val()));
-            $("#FStudentNumber").val
+            //console.log(($(this).val()));
+            var aa = $(this).parent().parent().parent().prev().find("input").val();
 
-        })
+            $('#FStudentId').val(@Model.student.FStudentNumber);
+            $('#FExamPaperId').val(@Model.examp.FExamPaperId);
+            $('#FSujectId').val(aa);
+            $('#FChoose').val($(this).val());
+
+
+            console.log($("#FStudentId").val());
+            console.log($("#FExamPaperId").val());
+            console.log($("#FSujectId").val());
+            console.log($("#FChoose").val());
+
+
+            var json = ({
+                FStudentId: $('#FStudentId').val(),
+                FExamPaperId: $('#FExamPaperId').val(),
+                FSujectId: $('#FSujectId').val(),
+                FChoose: $('#FChoose').val()
+            });
+            console.log(json);
+
+
+              $.ajax({
+                url: "@Url.Content("~/SExamIndex/StartExam4")",
+                type: "post",
+                data:json,
+            })
+
+
+        });
 
 
 
-        
-        
+
+
 
             //function radioChecked() {
             //    $("input[type='radio']").each(function (i) {
@@ -235,11 +264,11 @@
         //})
 
 
-        $(".form-check-input").click(function () {
+        //$(".form-check-input").click(function () {
 
-            console.log(($(this).val()));
+        //    console.log(($(this).val()));
 
-        })
+        //})
 
 
 

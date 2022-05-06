@@ -19,5 +19,12 @@ namespace ISpanSTA.ViewModel
         public int FChoose_4 { get; set; }
         public int FChoose_5 { get; set; }
 
+        public int FStudentId { get; set; }
+        public int FExamPaperId { get; set; }
+        public int FSujectId { get; set; }
+        public int FChoose { get; set; }
+
+
+
     }
 }
