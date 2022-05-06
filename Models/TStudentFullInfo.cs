@@ -12,6 +12,8 @@ namespace ISpanSTA.Models
             TEvaluationReviewHeaders = new HashSet<TEvaluationReviewHeader>();
             TLeaveInfos = new HashSet<TLeaveInfo>();
             TPunchInfos = new HashSet<TPunchInfo>();
+            TRecords = new HashSet<TRecord>();
+            TScores = new HashSet<TScore>();
         }
 
         public int FStudentNumber { get; set; }
@@ -28,5 +30,7 @@ namespace ISpanSTA.Models
         public virtual ICollection<TEvaluationReviewHeader> TEvaluationReviewHeaders { get; set; }
         public virtual ICollection<TLeaveInfo> TLeaveInfos { get; set; }
         public virtual ICollection<TPunchInfo> TPunchInfos { get; set; }
+        public virtual ICollection<TRecord> TRecords { get; set; }
+        public virtual ICollection<TScore> TScores { get; set; }
     }
 }

@@ -211,6 +211,40 @@ namespace ISpanSTA.Controllers
 
 
 
+        public IActionResult CalcScore(CStartExam2ViewModel csc)
+        {
+            var dataRc = (from r in _context.TRecords
+                       where r.FStudentId == 5 && r.FExamPaperId == 2
+                       select r).ToList(); //抓出A學生填寫a試卷的題目作答紀錄
+
+            List<TRecord> rc = new List<TRecord>();
+            foreach (var drc in dataRc)
+            {
+                rc.Add(drc);
+            }
+
+            var dataSj = (from s in _context.TSujects
+                          join r in _context.TRecords on s.FSujectId equals r.FSujectId
+                          select s).ToList(); //抓出試卷題目
+
+            List<TSuject> sj = new List<TSuject>();
+            foreach (var dsj in dataSj)
+            {
+                sj.Add(dsj);
+            }
+
+            int bingo = 0; //答對數
+
+            foreach(var c in rc)
+            {
+                
+            }
+
+
+            return View();
+        }
+
+
         // POST: SExamIndexController/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]

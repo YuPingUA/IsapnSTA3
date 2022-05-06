@@ -28,6 +28,7 @@ namespace ISpanSTA.Models
         public virtual DbSet<TClassFullInfo> TClassFullInfos { get; set; }
         public virtual DbSet<TClassroomFullInfo> TClassroomFullInfos { get; set; }
         public virtual DbSet<TComment> TComments { get; set; }
+        public virtual DbSet<TEvaluationCheck> TEvaluationChecks { get; set; }
         public virtual DbSet<TEvaluationDetail> TEvaluationDetails { get; set; }
         public virtual DbSet<TEvaluationHeader> TEvaluationHeaders { get; set; }
         public virtual DbSet<TEvaluationQuestionDetail> TEvaluationQuestionDetails { get; set; }
@@ -43,6 +44,7 @@ namespace ISpanSTA.Models
         public virtual DbSet<TOption> TOptions { get; set; }
         public virtual DbSet<TPunchInfo> TPunchInfos { get; set; }
         public virtual DbSet<TRecord> TRecords { get; set; }
+        public virtual DbSet<TScore> TScores { get; set; }
         public virtual DbSet<TStudentFullInfo> TStudentFullInfos { get; set; }
         public virtual DbSet<TSuject> TSujects { get; set; }
         public virtual DbSet<TTeacherCourseFullInfo> TTeacherCourseFullInfos { get; set; }
@@ -50,14 +52,14 @@ namespace ISpanSTA.Models
         public virtual DbSet<TType> TTypes { get; set; }
         public virtual DbSet<Tquestionnare> Tquestionnares { get; set; }
 
-//        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-//        {
-//            if (!optionsBuilder.IsConfigured)
-//            {
-//#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
-//                optionsBuilder.UseSqlServer("Server=tcp:msit40group2.database.windows.net,1433;Initial Catalog=dbIspanStudentSystem;Persist Security Info=False;User ID=ispanadmin;Password=Ispansta123;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
-//            }
-//        }
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            if (!optionsBuilder.IsConfigured)
+            {
+#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
+                optionsBuilder.UseSqlServer("Server=tcp:msit40group2.database.windows.net,1433;Initial Catalog=dbIspanStudentSystem;Persist Security Info=False;User ID=ispanadmin;Password=Ispansta123;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
+            }
+        }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -447,6 +449,21 @@ namespace ISpanSTA.Models
                     .HasConstraintName("FK_tComments_tArticleInFo");
             });
 
+            modelBuilder.Entity<TEvaluationCheck>(entity =>
+            {
+                entity.HasKey(e => e.FCheckId);
+
+                entity.ToTable("tEvaluationCheck");
+
+                entity.Property(e => e.FCheckId).HasColumnName("fCheckId");
+
+                entity.Property(e => e.FEvaluationId).HasColumnName("fEvaluationId");
+
+                entity.Property(e => e.FStudentNumber).HasColumnName("fStudentNumber");
+
+                entity.Property(e => e.FSurveyStatus).HasColumnName("fSurveyStatus");
+            });
+
             modelBuilder.Entity<TEvaluationDetail>(entity =>
             {
                 entity.HasKey(e => new { e.FEvaluationId, e.FEvaluationQid });
@@ -812,8 +829,7 @@ namespace ISpanSTA.Models
                 entity.Property(e => e.FLeaveNumber).HasColumnName("fLeaveNumber");
 
                 entity.Property(e => e.FLeave)
-                    .HasMaxLength(3)
-                    .IsUnicode(false)
+                    .HasMaxLength(50)
                     .HasColumnName("fLeave");
 
                 entity.Property(e => e.FLeaveDate)
@@ -831,7 +847,7 @@ namespace ISpanSTA.Models
                     .HasColumnName("fLeaveStart");
 
                 entity.Property(e => e.FStatus)
-                    .HasMaxLength(2)
+                    .HasMaxLength(50)
                     .HasColumnName("fStatus");
 
                 entity.Property(e => e.FStudentNumber).HasColumnName("fStudentNumber");
@@ -957,11 +973,43 @@ namespace ISpanSTA.Models
                     .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("FK_tRecord_tExaminationPaper");
 
+                entity.HasOne(d => d.FStudent)
+                    .WithMany(p => p.TRecords)
+                    .HasForeignKey(d => d.FStudentId)
+                    .OnDelete(DeleteBehavior.ClientSetNull)
+                    .HasConstraintName("FK_tRecord_tStudentFullInfo");
+
                 entity.HasOne(d => d.FSuject)
                     .WithMany(p => p.TRecords)
                     .HasForeignKey(d => d.FSujectId)
                     .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("FK_tRecord_tSuject");
+            });
+
+            modelBuilder.Entity<TScore>(entity =>
+            {
+                entity.HasKey(e => e.FScoreId)
+                    .HasName("PK_dbo.tScore");
+
+                entity.ToTable("tScore");
+
+                entity.Property(e => e.FScoreId).HasColumnName("fScoreId");
+
+                entity.Property(e => e.FExamPaperId).HasColumnName("fExamPaperId");
+
+                entity.Property(e => e.FScore).HasColumnName("fScore");
+
+                entity.Property(e => e.FStudentId).HasColumnName("fStudentId");
+
+                entity.HasOne(d => d.FExamPaper)
+                    .WithMany(p => p.TScores)
+                    .HasForeignKey(d => d.FExamPaperId)
+                    .HasConstraintName("FK_dbo.tScore_tExaminationPaper");
+
+                entity.HasOne(d => d.FStudent)
+                    .WithMany(p => p.TScores)
+                    .HasForeignKey(d => d.FStudentId)
+                    .HasConstraintName("FK_dbo.tScore_tStudentFullInfo");
             });
 
             modelBuilder.Entity<TStudentFullInfo>(entity =>

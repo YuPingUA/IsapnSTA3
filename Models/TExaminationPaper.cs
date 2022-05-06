@@ -11,6 +11,7 @@ namespace ISpanSTA.Models
         {
             TExamPaperDetails = new HashSet<TExamPaperDetail>();
             TRecords = new HashSet<TRecord>();
+            TScores = new HashSet<TScore>();
         }
 
         public int FExamPaperId { get; set; }
@@ -28,5 +29,6 @@ namespace ISpanSTA.Models
         public virtual TClassCourseFullInfo FCourse { get; set; }
         public virtual ICollection<TExamPaperDetail> TExamPaperDetails { get; set; }
         public virtual ICollection<TRecord> TRecords { get; set; }
+        public virtual ICollection<TScore> TScores { get; set; }
     }
 }
