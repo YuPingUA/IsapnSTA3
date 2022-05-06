@@ -1,0 +1,130 @@
+﻿@model ISpanSTA.Models.TCategory
+
+@{
+    ViewData["Title"] = "Index";
+    //Layout = null;
+
+}
+
+<head>
+    <link rel="stylesheet" href="//cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css"
+    
+</head>
+<br />
+<br />
+<br />
+<h1>課程類別管理</h1>
+
+<div class="row">
+    <div class="col-sm-4">
+        <div class="container">
+            <form name="myForm" asp-action="AddOrEdit" onsubmit="return jQueryAjaxPost(this);" autocomplete="off">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input type="hidden" asp-for="FCategoryId" class="form-control" />
+                <input asp-for="FCourseId" class="form-control" />
+                <div class="form-group">
+                    <label asp-for="FName" class="control-label"></label>
+                    <input asp-for="FName" class="form-control" />
+                    <span asp-validation-for="FName" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="FContent" class="control-label"></label>
+                    <input asp-for="FContent" class="form-control" />
+                    <span asp-validation-for="FContent" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    @*<input type="submit" value="確認" class="btn btn-primary btn-block" />*@
+                    <button type="button" id="save" class="btn btn-info" onclick="addProject()">Save</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="col-sm-8">
+        <div class="panel-body">
+            <table id="tb1-category" class="table table-bordered" cellspacing="0" width="100%" align="center">
+                <thead>
+                    <tr>
+                        <th>序</th>
+                        <th>類別名稱</th>
+                        <th>類別內容</th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+    </div>
+
+</div>
+
+@section Scripts{
+    <script src="~/js/jquery-3.2.1.min.js"></script>
+
+    <script src="//cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+
+    <script>
+        getall();
+        var isNew = true;
+
+        function addProject() {
+            var url = '';
+            var data = '';
+            var method;
+
+            if (isNew == true) {
+                url = '/TSjCategory/save';
+                data = "{FName:'" + $('#FName').val() + "',FContent:'" + $('#FContent').val() + "'}";
+                method: 'POST';
+
+            }
+
+            $.ajax({
+                type: method,
+                url: url,
+                dataType: 'JSON',
+                contentType: "application/json; charset=utf-8",
+                data: data,
+
+                success: function (data) {
+                    if (isNew) {
+                        alert("add success");
+                    }
+
+                }
+
+
+
+            });
+        }
+
+
+
+
+        function getall() {
+            //$('#tb1-category').dataTable.fnDestroy();
+            $('#tb1-category').data({
+                "ajax": {
+                    "url": '/TSjCategory/GetCategory',
+                    "type": "get",
+                    "datatype": "JSON"
+                },
+                "columns":
+                    [
+                        { dataa: "FName" },
+                        { data: "FContent" },
+                        {
+                            data: "id", "render": function (data) {
+                                return '<button class="btn btn-success" onclick="get_cagegory(' + data + ')">edit</button>';
+                            }
+                        },
+                        {
+                            data: "id", "render": function (data) {
+                                return '<button class="btn btn-success" onclick="get_cagegory(' + data + ')">delete</button>';
+                            }
+                        }
+                    ]
+            })
+
+        }
+
+    </script>
+}

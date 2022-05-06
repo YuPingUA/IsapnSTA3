@@ -1,0 +1,127 @@
+﻿@model IEnumerable<ISpanSTA.Models.TCategory>
+
+@{
+    ViewData["Title"] = "Index";
+    //Layout = null;
+
+}
+<br /><br /><br />
+<h1>課程類別管理</h1>
+
+<p>
+    <a onclick="showInPopup('@Url.Action("AddOrEdit","TSjCategory",null,Context.Request.Scheme)','新增類別')" class="btn btn-success text-white">新增</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.FCategoryId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FCourseId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FContent)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FCategoryId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FCourseId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FContent)
+                </td>
+                <td>
+                    <a onclick="showInPopup('@Url.Action("AddOrEdit","TSjCategory",new { id = item.FCategoryId },Context.Request.Scheme)','編輯類別')" class="btn btn-info text-white">編輯</a>
+                    @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                    @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.FCategoryId })
+                    <button type="button" class="btn btn-outline-danger"><i class="fas fa-trash-alt">@Html.ActionLink("刪除", "Delete", "TSjCategory", new { id = item.FCategoryId }, new { onclick = "return confirm('確定要刪除嗎?')" })</i></button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<div class="modal" tabindex="-1" id="form-modal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title"></h1>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+@section Scripts{ 
+    <script>
+    showInPopup = (url, title) => {
+        $.ajax({
+            type: "GET",
+            url: url,
+            success: function (res) {
+                $("#form-modal .modal-body").html(res);
+                $("#form-modal .modal-title").html(title);
+                $("#form-modal").modal('show');
+            }
+        })
+    };
+
+    jQueryAjaxPost = from => {
+       // console.log(document.myForm)
+        try {
+            $.ajax({
+                type: 'POST',
+                url:  document.myForm.action,    @*"@Url.Content("~/TSjCategory/AddOrEdit/0")",*@
+                data: new FormData(document.myForm),
+                contentType: false,
+                processData: false,
+                success: function (res) {
+                   // console.log(res)
+                    if (res.isValid) {
+                       /* $("#view-all").html(res.html);*/
+                        $("#form-modal .modal-body").html('');
+                        $("#form-modal .modal-title").html('');
+                        $("#form-modal").modal('hide');
+                        location.reload();
+                    }
+                    else {
+                        $("#form-modal .modal-body").html(res.html);
+                    }
+                      
+                },
+                error: function (err) {
+                    console.log(err);
+                }
+            })
+        } catch (e) {
+            console.log(e);
+        }
+        //to prevent default form submit event
+        return false;
+        }
+
+
+    </script>
+}

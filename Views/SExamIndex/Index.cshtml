@@ -1,0 +1,130 @@
+﻿@model IEnumerable<ISpanSTA.ViewModel.CExamPaperViewModel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
+
+@Html.DisplayFor(modelItem => @Model.ToList()[0].FClassPeriod)
+
+@*<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.FExamPaperId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FClassPeriod)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FCourseId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FCourseName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FDescription)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FBegin)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FEnd)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FTimeLimit)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FReveal)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FOrder)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>*@
+
+<div style="height:1200px">
+    @foreach (var item in Model)
+    {
+
+        <div class="container mt-5">
+            <div class="card border-success mb-3" style="width: 25%;height:350px;float:left;margin:20px">
+                <div class="card-header bg-transparent border-success" style="color:purple"> @Html.DisplayFor(modelItem => item.FCourseName)</div>
+                <div class="card-body text-success">
+                    <h3 class="card-title">@Html.DisplayFor(modelItem => item.FName)</h3>
+                    <p class="card-text">@Html.DisplayFor(modelItem => item.FDescription)</p>
+
+                </div>
+                <div class="card-body text-success">
+                    <p class="card-text" style="color:blue">開始日：@Html.DisplayFor(modelItem => item.FBegin)</p>
+                    <p class="card-text" style="color:red">截止日：@Html.DisplayFor(modelItem => item.FEnd)</p>
+                    <p class="card-text" style="color:blueviolet">解答公布日：@Html.DisplayFor(modelItem => item.FReveal)</p>
+                    <p class="card-text" style="color:red">時間限制：@Html.DisplayFor(modelItem => item.FTimeLimit)分鐘</p>
+                </div>
+                <div class="card-footer bg-transparent border-success">
+                    @*<a href="#" class=" btn btn-info card-link">Card link</a>
+                        <a href="#" class=" btn btn-outline-danger card-link">Another link</a>*@
+                    <button type="button" class="btn btn-outline-success"><i class="fas fa-sign-in-alt">@Html.ActionLink("進入考試", "StartExam4", new { id = item.FExamPaperId })</i></button>
+                    <button type="button" class="btn btn-outline-danger"><i class="fas fa-eye">@Html.ActionLink("查看結果", "Details", new { /* id=item.PrimaryKey */ })</i></button>
+                </div>
+            </div>
+        </div>
+
+        @*<tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FExamPaperId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FClassPeriod)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FCourseId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FCourseName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FDescription)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FBegin)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FEnd)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FTimeLimit)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FReveal)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FOrder)
+                </td>
+                <td>
+                    <button type="button" class="btn btn-outline-success"><i class="fas fa-sign-in-alt">@Html.ActionLink("進入考試", "StartExam", new { id = item.FExamPaperId })</i></button>
+                    <button type="button" class="btn btn-outline-danger"><i class="fas fa-eye">@Html.ActionLink("查看結果", "Details", new { /* id=item.PrimaryKey */ })</i></button>|
+                    @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+                </td>
+
+
+            </tr>*@
+    }
+</div>
+    @*</tbody>
+        </table>*@

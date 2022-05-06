@@ -1,0 +1,840 @@
+C:\Users\a2289\source\repos\ISpanSTA\obj\Debug\net5.0\ISpanSTA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\a2289\source\repos\ISpanSTA\obj\Debug\net5.0\ISpanSTA.AssemblyInfoInputs.cache
+C:\Users\a2289\source\repos\ISpanSTA\obj\Debug\net5.0\ISpanSTA.AssemblyInfo.cs
+C:\Users\a2289\source\repos\ISpanSTA\obj\Debug\net5.0\ISpanSTA.csproj.CoreCompileInputs.cache
+C:\Users\a2289\source\repos\ISpanSTA\obj\Debug\net5.0\ISpanSTA.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\a2289\source\repos\ISpanSTA\obj\Debug\net5.0\ISpanSTA.RazorAssemblyInfo.cache
+C:\Users\a2289\source\repos\ISpanSTA\obj\Debug\net5.0\ISpanSTA.RazorAssemblyInfo.cs
+C:\Users\a2289\source\repos\ISpanSTA\obj\Debug\net5.0\staticwebassets\ISpanSTA.StaticWebAssets.Manifest.cache
+C:\Users\a2289\source\repos\ISpanSTA\obj\Debug\net5.0\staticwebassets\ISpanSTA.StaticWebAssets.xml
+C:\Users\a2289\source\repos\ISpanSTA\obj\Debug\net5.0\scopedcss\bundle\ISpanSTA.styles.css
+C:\Users\a2289\source\repos\ISpanSTA\obj\Debug\net5.0\ISpanSTA.TagHelpers.input.cache
+C:\Users\a2289\source\repos\ISpanSTA\obj\Debug\net5.0\ISpanSTA.TagHelpers.output.cache
+C:\Users\a2289\source\repos\ISpanSTA\obj\Debug\net5.0\ISpanSTA.RazorCoreGenerate.cache
+C:\Users\a2289\source\repos\ISpanSTA\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\a2289\source\repos\ISpanSTA\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\a2289\source\repos\ISpanSTA\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\a2289\source\repos\ISpanSTA\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\a2289\source\repos\ISpanSTA\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\a2289\source\repos\ISpanSTA\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\a2289\source\repos\ISpanSTA\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\a2289\source\repos\ISpanSTA\obj\Debug\net5.0\ISpanSTA.RazorTargetAssemblyInfo.cache
+C:\Users\a2289\source\repos\ISpanSTA\obj\Debug\net5.0\ISpanSTA.RazorTargetAssemblyInfo.cs
+C:\Users\a2289\source\repos\ISpanSTA\obj\Debug\net5.0\ISpanSTA.dll
+C:\Users\a2289\source\repos\ISpanSTA\obj\Debug\net5.0\ref\ISpanSTA.dll
+C:\Users\a2289\source\repos\ISpanSTA\obj\Debug\net5.0\ISpanSTA.pdb
+C:\Users\a2289\source\repos\ISpanSTA\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\a2289\source\repos\ISpanSTA\bin\Debug\net5.0\appsettings.json
+C:\Users\a2289\source\repos\ISpanSTA\bin\Debug\net5.0\ISpanSTA.exe
+C:\Users\a2289\source\repos\ISpanSTA\bin\Debug\net5.0\ISpanSTA.deps.json
+C:\Users\a2289\source\repos\ISpanSTA\bin\Debug\net5.0\ISpanSTA.runtimeconfig.json
+C:\Users\a2289\source\repos\ISpanSTA\bin\Debug\net5.0\ISpanSTA.runtimeconfig.dev.json
+C:\Users\a2289\source\repos\ISpanSTA\bin\Debug\net5.0\ISpanSTA.dll
+C:\Users\a2289\source\repos\ISpanSTA\bin\Debug\net5.0\ref\ISpanSTA.dll
+C:\Users\a2289\source\repos\ISpanSTA\bin\Debug\net5.0\ISpanSTA.pdb
+C:\Users\a2289\source\repos\ISpanSTA\bin\Debug\net5.0\ISpanSTA.Views.dll
+C:\Users\a2289\source\repos\ISpanSTA\bin\Debug\net5.0\ISpanSTA.Views.pdb
+C:\Users\a2289\source\repos\ISpanSTA\obj\Debug\net5.0\ISpanSTA.Views.pdb
+C:\Users\a2289\source\repos\ISpanSTA\obj\Debug\net5.0\ISpanSTA.genruntimeconfig.cache
+C:\Users\a2289\source\repos\ISpanSTA\obj\Debug\net5.0\ISpanSTA.csproj.CopyComplete
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ISpanSTA.dll
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ref\ISpanSTA.dll
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ISpanSTA.pdb
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\appsettings.json
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ISpanSTA.exe
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ISpanSTA.deps.json
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ISpanSTA.runtimeconfig.json
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ISpanSTA.runtimeconfig.dev.json
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ISpanSTA.dll
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ref\ISpanSTA.dll
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ISpanSTA.pdb
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ISpanSTA.Views.dll
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ISpanSTA.Views.pdb
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ISpanSTA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ISpanSTA.AssemblyInfoInputs.cache
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ISpanSTA.AssemblyInfo.cs
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ISpanSTA.csproj.CoreCompileInputs.cache
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ISpanSTA.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ISpanSTA.RazorAssemblyInfo.cache
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ISpanSTA.RazorAssemblyInfo.cs
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\staticwebassets\ISpanSTA.StaticWebAssets.Manifest.cache
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\staticwebassets\ISpanSTA.StaticWebAssets.xml
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\scopedcss\bundle\ISpanSTA.styles.css
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ISpanSTA.TagHelpers.input.cache
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ISpanSTA.TagHelpers.output.cache
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ISpanSTA.RazorCoreGenerate.cache
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ISpanSTA.RazorTargetAssemblyInfo.cache
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ISpanSTA.RazorTargetAssemblyInfo.cs
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ISpanSTA.Views.pdb
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ISpanSTA.genruntimeconfig.cache
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ISpanSTA.csproj.CopyComplete
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Humanizer.dll
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\dotnet-aspnet-codegenerator-design.dll
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\System.Composition.AttributedModel.dll
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\System.Composition.Convention.dll
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\System.Composition.Hosting.dll
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\System.Composition.Runtime.dll
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\System.Composition.TypedParts.dll
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\SHome\Home.cshtml.g.cs
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\AHome\Home.cshtml.g.cs
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\THome\Home.cshtml.g.cs
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\AHome\ArrangeCourse.cshtml.g.cs
+C:\Users\user\OneDrive\桌面\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\AHome\Leave.cshtml.g.cs
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\appsettings.Development.json
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\appsettings.json
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ISpanSTA.exe
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ISpanSTA.deps.json
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ISpanSTA.runtimeconfig.json
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ISpanSTA.runtimeconfig.dev.json
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ISpanSTA.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ref\ISpanSTA.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ISpanSTA.pdb
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ISpanSTA.Views.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ISpanSTA.Views.pdb
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Humanizer.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\dotnet-aspnet-codegenerator-design.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Newtonsoft.Json.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\System.Composition.AttributedModel.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\System.Composition.Convention.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\System.Composition.Hosting.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\System.Composition.Runtime.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\System.Composition.TypedParts.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\System.Runtime.Caching.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.resources.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.resources.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.resources.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.resources.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.resources.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.resources.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.resources.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.resources.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.resources.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ISpanSTA.csproj.AssemblyReference.cache
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ISpanSTA.GeneratedMSBuildEditorConfig.editorconfig
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ISpanSTA.AssemblyInfoInputs.cache
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ISpanSTA.AssemblyInfo.cs
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ISpanSTA.csproj.CoreCompileInputs.cache
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ISpanSTA.MvcApplicationPartsAssemblyInfo.cache
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ISpanSTA.RazorAssemblyInfo.cache
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ISpanSTA.RazorAssemblyInfo.cs
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\staticwebassets\ISpanSTA.StaticWebAssets.Manifest.cache
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\staticwebassets\ISpanSTA.StaticWebAssets.xml
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\scopedcss\bundle\ISpanSTA.styles.css
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ISpanSTA.TagHelpers.input.cache
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ISpanSTA.TagHelpers.output.cache
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ISpanSTA.RazorCoreGenerate.cache
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\AHome\ArrangeCourse.cshtml.g.cs
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\AHome\Home.cshtml.g.cs
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\AHome\Leave.cshtml.g.cs
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\SHome\Home.cshtml.g.cs
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\THome\Home.cshtml.g.cs
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ISpanSTA.RazorTargetAssemblyInfo.cache
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ISpanSTA.RazorTargetAssemblyInfo.cs
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ISpanSTA.Views.pdb
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ISpanSTA.csproj.CopyComplete
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ISpanSTA.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ref\ISpanSTA.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ISpanSTA.pdb
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ISpanSTA.genruntimeconfig.cache
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\QuestionBank\Index.cshtml.g.cs
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\QuestionBank\Create.cshtml.g.cs
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\QuestionBank\Edit.cshtml.g.cs
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\QuestionBank\Details.cshtml.g.cs
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\TExamPaper\Index.cshtml.g.cs
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\TExamPaper\Create.cshtml.g.cs
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\TExamPaper\Details.cshtml.g.cs
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\SExamIndex\Index.cshtml.g.cs
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\JetBrains.Annotations.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\X.PagedList.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\X.PagedList.Mvc.Core.dll
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ISpanSTA.MvcApplicationPartsAssemblyInfo.cs
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\TSjCategory\Index.cshtml.g.cs
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\SExamIndex\test.cshtml.g.cs
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\SExamIndex\testp.cshtml.g.cs
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\TSjCategory\AddOrEdit.cshtml.g.cs
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\TSjCategory\Index2.cshtml.g.cs
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\SExamIndex\StartExam.cshtml.g.cs
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\SExamIndex\StartExam2.cshtml.g.cs
+E:\專題製作第二組\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\SExamIndex\StartExam3.cshtml.g.cs
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\appsettings.Development.json
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\appsettings.json
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ISpanSTA.exe
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ISpanSTA.deps.json
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ISpanSTA.runtimeconfig.json
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ISpanSTA.runtimeconfig.dev.json
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ISpanSTA.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ref\ISpanSTA.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ISpanSTA.pdb
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ISpanSTA.Views.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ISpanSTA.Views.pdb
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Humanizer.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\JetBrains.Annotations.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\dotnet-aspnet-codegenerator-design.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Newtonsoft.Json.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\System.Composition.AttributedModel.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\System.Composition.Convention.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\System.Composition.Hosting.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\System.Composition.Runtime.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\System.Composition.TypedParts.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\System.Runtime.Caching.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\X.PagedList.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\X.PagedList.Mvc.Core.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.resources.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.resources.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.resources.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.resources.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.resources.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.resources.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.resources.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.resources.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.resources.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ISpanSTA.csproj.AssemblyReference.cache
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ISpanSTA.GeneratedMSBuildEditorConfig.editorconfig
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ISpanSTA.AssemblyInfoInputs.cache
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ISpanSTA.AssemblyInfo.cs
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ISpanSTA.csproj.CoreCompileInputs.cache
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ISpanSTA.MvcApplicationPartsAssemblyInfo.cs
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ISpanSTA.MvcApplicationPartsAssemblyInfo.cache
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ISpanSTA.RazorAssemblyInfo.cache
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ISpanSTA.RazorAssemblyInfo.cs
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\staticwebassets\ISpanSTA.StaticWebAssets.Manifest.cache
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\staticwebassets\ISpanSTA.StaticWebAssets.xml
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\scopedcss\bundle\ISpanSTA.styles.css
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ISpanSTA.TagHelpers.input.cache
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ISpanSTA.TagHelpers.output.cache
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ISpanSTA.RazorCoreGenerate.cache
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\AHome\ArrangeCourse.cshtml.g.cs
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\AHome\Home.cshtml.g.cs
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\AHome\Leave.cshtml.g.cs
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\QuestionBank\Create.cshtml.g.cs
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\QuestionBank\Details.cshtml.g.cs
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\QuestionBank\Edit.cshtml.g.cs
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\QuestionBank\Index.cshtml.g.cs
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\SExamIndex\Index.cshtml.g.cs
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\SExamIndex\StartExam.cshtml.g.cs
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\SExamIndex\StartExam2.cshtml.g.cs
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\SExamIndex\StartExam3.cshtml.g.cs
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\SExamIndex\test.cshtml.g.cs
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\SExamIndex\testp.cshtml.g.cs
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\SHome\Home.cshtml.g.cs
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\TExamPaper\Create.cshtml.g.cs
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\TExamPaper\Details.cshtml.g.cs
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\TExamPaper\Index.cshtml.g.cs
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\THome\Home.cshtml.g.cs
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\TSjCategory\AddOrEdit.cshtml.g.cs
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\TSjCategory\Index.cshtml.g.cs
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\TSjCategory\Index2.cshtml.g.cs
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ISpanSTA.RazorTargetAssemblyInfo.cache
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ISpanSTA.RazorTargetAssemblyInfo.cs
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ISpanSTA.Views.pdb
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ISpanSTA.csproj.CopyComplete
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ISpanSTA.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ref\ISpanSTA.dll
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ISpanSTA.pdb
+E:\專題製作第二組-3\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ISpanSTA.genruntimeconfig.cache
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\appsettings.Development.json
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\appsettings.json
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ISpanSTA.exe
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ISpanSTA.deps.json
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ISpanSTA.runtimeconfig.json
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ISpanSTA.runtimeconfig.dev.json
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ISpanSTA.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ref\ISpanSTA.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ISpanSTA.pdb
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ISpanSTA.Views.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ISpanSTA.Views.pdb
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Humanizer.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\JetBrains.Annotations.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\dotnet-aspnet-codegenerator-design.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Newtonsoft.Json.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\System.Composition.AttributedModel.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\System.Composition.Convention.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\System.Composition.Hosting.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\System.Composition.Runtime.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\System.Composition.TypedParts.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\System.Runtime.Caching.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\X.PagedList.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\X.PagedList.Mvc.Core.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.resources.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.resources.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.resources.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.resources.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.resources.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.resources.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.resources.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.resources.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.resources.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ISpanSTA.GeneratedMSBuildEditorConfig.editorconfig
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ISpanSTA.AssemblyInfoInputs.cache
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ISpanSTA.AssemblyInfo.cs
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ISpanSTA.csproj.CoreCompileInputs.cache
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ISpanSTA.MvcApplicationPartsAssemblyInfo.cs
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ISpanSTA.MvcApplicationPartsAssemblyInfo.cache
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ISpanSTA.RazorAssemblyInfo.cache
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ISpanSTA.RazorAssemblyInfo.cs
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\staticwebassets\ISpanSTA.StaticWebAssets.Manifest.cache
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\staticwebassets\ISpanSTA.StaticWebAssets.xml
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\scopedcss\bundle\ISpanSTA.styles.css
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ISpanSTA.TagHelpers.input.cache
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ISpanSTA.TagHelpers.output.cache
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ISpanSTA.RazorCoreGenerate.cache
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\AHome\ArrangeCourse.cshtml.g.cs
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\AHome\Home.cshtml.g.cs
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\AHome\Leave.cshtml.g.cs
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\QuestionBank\Create.cshtml.g.cs
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\QuestionBank\Details.cshtml.g.cs
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\QuestionBank\Edit.cshtml.g.cs
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\QuestionBank\Index.cshtml.g.cs
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\SExamIndex\Index.cshtml.g.cs
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\SExamIndex\StartExam.cshtml.g.cs
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\SExamIndex\StartExam2.cshtml.g.cs
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\SExamIndex\StartExam3.cshtml.g.cs
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\SExamIndex\testp.cshtml.g.cs
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\SHome\Home.cshtml.g.cs
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\TExamPaper\Create.cshtml.g.cs
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\TExamPaper\Details.cshtml.g.cs
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\TExamPaper\Index.cshtml.g.cs
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\THome\Home.cshtml.g.cs
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\TSjCategory\AddOrEdit.cshtml.g.cs
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\TSjCategory\Index.cshtml.g.cs
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\TSjCategory\Index2.cshtml.g.cs
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ISpanSTA.RazorTargetAssemblyInfo.cache
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ISpanSTA.RazorTargetAssemblyInfo.cs
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ISpanSTA.Views.pdb
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ISpanSTA.csproj.CopyComplete
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ISpanSTA.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ref\ISpanSTA.dll
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ISpanSTA.pdb
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ISpanSTA.genruntimeconfig.cache
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\TExamPaper\Edit.cshtml.g.cs
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\SExamIndex\StartExam4.cshtml.g.cs
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\TSjCategory2\Index.cshtml.g.cs
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\QuestionBank\Post.cshtml.g.cs
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\SExamIndex\Index2.cshtml.g.cs
+E:\專題製作第二組-5\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ISpanSTA.csproj.AssemblyReference.cache
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\appsettings.Development.json
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\appsettings.json
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ISpanSTA.exe
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ISpanSTA.deps.json
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ISpanSTA.runtimeconfig.json
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ISpanSTA.runtimeconfig.dev.json
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ISpanSTA.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ref\ISpanSTA.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ISpanSTA.pdb
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ISpanSTA.Views.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ISpanSTA.Views.pdb
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Humanizer.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\JetBrains.Annotations.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\dotnet-aspnet-codegenerator-design.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\Newtonsoft.Json.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\System.Composition.AttributedModel.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\System.Composition.Convention.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\System.Composition.Hosting.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\System.Composition.Runtime.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\System.Composition.TypedParts.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\System.Runtime.Caching.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\X.PagedList.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\X.PagedList.Mvc.Core.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.resources.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.resources.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.resources.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.resources.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.resources.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.resources.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.resources.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.resources.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.resources.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ISpanSTA.csproj.AssemblyReference.cache
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ISpanSTA.GeneratedMSBuildEditorConfig.editorconfig
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ISpanSTA.AssemblyInfoInputs.cache
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ISpanSTA.AssemblyInfo.cs
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ISpanSTA.csproj.CoreCompileInputs.cache
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ISpanSTA.MvcApplicationPartsAssemblyInfo.cs
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ISpanSTA.MvcApplicationPartsAssemblyInfo.cache
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ISpanSTA.RazorAssemblyInfo.cache
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ISpanSTA.RazorAssemblyInfo.cs
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\staticwebassets\ISpanSTA.StaticWebAssets.Manifest.cache
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\staticwebassets\ISpanSTA.StaticWebAssets.xml
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\scopedcss\bundle\ISpanSTA.styles.css
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ISpanSTA.TagHelpers.input.cache
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ISpanSTA.TagHelpers.output.cache
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ISpanSTA.RazorCoreGenerate.cache
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\AHome\ArrangeCourse.cshtml.g.cs
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\AHome\Home.cshtml.g.cs
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\AHome\Leave.cshtml.g.cs
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\QuestionBank\Create.cshtml.g.cs
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\QuestionBank\Details.cshtml.g.cs
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\QuestionBank\Edit.cshtml.g.cs
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\QuestionBank\Index.cshtml.g.cs
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\QuestionBank\Post.cshtml.g.cs
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\SExamIndex\Index.cshtml.g.cs
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\SExamIndex\StartExam.cshtml.g.cs
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\SExamIndex\StartExam2.cshtml.g.cs
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\SExamIndex\StartExam3.cshtml.g.cs
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\SExamIndex\StartExam4.cshtml.g.cs
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\SExamIndex\testp.cshtml.g.cs
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\SHome\Home.cshtml.g.cs
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\TExamPaper\Create.cshtml.g.cs
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\TExamPaper\Details.cshtml.g.cs
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\TExamPaper\Edit.cshtml.g.cs
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\TExamPaper\Index.cshtml.g.cs
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\THome\Home.cshtml.g.cs
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\TSjCategory2\Index.cshtml.g.cs
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\TSjCategory\AddOrEdit.cshtml.g.cs
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\TSjCategory\Index.cshtml.g.cs
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\TSjCategory\Index2.cshtml.g.cs
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ISpanSTA.RazorTargetAssemblyInfo.cache
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ISpanSTA.RazorTargetAssemblyInfo.cs
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ISpanSTA.Views.pdb
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ISpanSTA.csproj.CopyComplete
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ISpanSTA.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ref\ISpanSTA.dll
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ISpanSTA.pdb
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ISpanSTA.genruntimeconfig.cache

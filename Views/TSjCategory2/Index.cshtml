@@ -1,0 +1,155 @@
+﻿@model ISpanSTA.ViewModel.CategoryViewModel
+
+@{
+    ViewData["Title"] = "Index";
+    //Layout = null;
+
+}
+
+
+<div class="container mt-5">
+    <h1>課程類別管理</h1>
+
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="container">
+                <form asp-action="Post" asp-controller="TSjCategory2" method="post">
+                    <div class="row" style="border:2px solid black; margin:0 auto; padding:20px;">
+                        <div class="col-md-2">
+                            CourseId
+                        </div>
+                        <div class="col-md-10">
+                            <input hidden type="text" id="txtCourseId" class="form-control" placeholder="Enter category CourseId" />
+                        </div>
+
+                        <div class="col-md-2">
+                            Name
+                        </div>
+                        <div class="col-md-10">
+                            <input type="text" id="txtCategoryName" class="form-control" placeholder="Enter category Name" name="FName" />
+                        </div>
+
+                        <div class="col-md-2">
+                            Content
+                        </div>
+                        <div class="col-md-10">
+                            <input type="text" id="txtCategoryContent" class="form-control" placeholder="Enter category Content" name="FContent" />
+                        </div>
+
+                        <div class="col-md-12">
+                            <button id="Save" class="btn btn-primary" onclick="SaveCategory()">Save category</button>
+                            <button class="btn btn-danger">Reset</button>
+                        </div>
+
+                        <input hidden type="text" name="FCourseId" id="CourseId" value="2" />
+                        <input hidden type="submit" id="submitcategory" />
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="panel-body">
+                <div class="row">
+                    <table class="table table-bordered table-striped table-responsive">
+                        <thead>
+                            <tr>
+                                <th>類別名稱</th>
+                                <th>類別內容</th>
+                                <th>編輯</th>'
+                                <th>刪除</th>'
+                            </tr>
+                        </thead>
+                        <tbody id="tblCategoryBody"></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        </div>
+        @*<button class="btn btn-danger" onclick="getCategoryData()">點我</button>*@
+
+
+
+
+        @section Scripts {
+            <script src="~/Scripts/js/jquery-3.2.1.min.js"></script>
+            <script>
+
+                $(document).ready(function () {
+                    getCategoryData();
+                })
+
+                function SaveCategory() {
+                    var url = "Post";
+                    var objectCategory = {};
+                    //objectCategory.CourseId = $('#txtCourseId').val();
+                    objectCategory.fCourseId = 2;
+                    objectCategory.fName = $('#txtCategoryName').val();
+                    objectCategory.fContent = $('#txtCategoryContent').val();
+
+
+                    if (objectCategory) {
+                        $.ajax({
+                            url: url,
+                            contentType: "application/json; charset=utf-8",
+                            dataType: "json",
+                            data: JSON.stringify(objectCategory),
+                            type: "Post",
+                            success: function (result) {
+                                Clear();
+                                alert(result);
+                            },
+                            error: function (msg) {
+                                alert(msg);
+                            }
+                        });
+                    }
+
+                }
+
+
+
+                function Clear() {
+                    $('#txtCategoryName').val('');
+                    $('#txtCategoryName').val('');
+                }
+
+
+
+
+                function getCategoryData() {
+                    var url = "Get";
+                    $.ajax({
+                        url: url,
+                        contentType: "application/json; charset=utf-8",
+                        dataType: "json",
+                        type: "Get",
+                        success: function (result) {
+                            //alert(result);
+                            //alert(JSON.stringify (result));
+                            if (result) {
+                                $('#tblCategoryBody').html('');
+                                var row = '';
+                                var row2 = '';
+                                row2 = row2 + `<tr><td>安安你好</td><td>早阿</td></tr>`
+                                for (let i = 0; i < result.length; i++) {
+                                    row = row
+                                        + `<tr>
+                                                                                        <td>${result[i].fName}</td>
+                                                                                        <td>${result[i].fContent}</td>
+<td><button class='btn btn-success'>編輯</button></td>
+<td><button class='btn btn-danger'>刪除</button></td>
+                                                                                        </tr>`
+                                }
+                                if (row != '') {
+                                    $('#tblCategoryBody').append(row);
+                                }
+                            }
+                        },
+                        error: function (msg) {
+                            alert(msg);
+                        }
+                    });
+                }
+
+            </script>
+        }

@@ -1,0 +1,391 @@
+﻿@model ISpanSTA.ViewModel.CStartExamViewModel
+
+@{
+    ViewData["Title"] = "StartExam";
+}
+
+
+<br /><br /><br />
+
+<!--<div class="container mt-5">
+    <div id="wrapper">
+        <!-- container fluid -->
+        <!--<div class="container-fluid mt-3">
+            <div class="row">-->
+                <!-- 試卷面板開始-->
+                <!--<div class="col-md-9 col-sm-7">
+                    <div id="single-choice">
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-md-1">
+                                        <div class="row">
+                                            <a class="font-weight-bold">Q1：</a>-->
+                                            @*<a class="font-weight-bold">單選</a>*@
+                                        <!--</div>
+                                        <div class="row">-->
+                                            @*<a class="text-info">5分</a>*@
+                                        <!--</div>
+                                    </div>
+                                    <div class="col-md-11">
+                                        <div id="text" class="row">
+                                            題目題目題目？
+                                        </div>
+                                        <div id="pic" class="row">
+
+                                        </div>
+                                        <div id="option">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="exampleRadios"
+                                                       id="exampleRadios1" value="option1" checked>
+                                                <label class="form-check-label" for="exampleRadios1">
+                                                    A: Options1
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="exampleRadios"
+                                                       id="exampleRadios2" value="option2">
+                                                <label class="form-check-label" for="exampleRadios2">
+                                                    B: Options2
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="exampleRadios"
+                                                       id="exampleRadios1" value="option1" checked>
+                                                <label class="form-check-label" for="exampleRadios1">
+                                                    C: Options3
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="exampleRadios"
+                                                       id="exampleRadios1" value="option1" checked>
+                                                <label class="form-check-label" for="exampleRadios1">
+                                                    D: Options4
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <footer class="sticky-footer bg-white">
+                        <div class="container my-auto">
+                            <div class="copyright text-center my-auto">
+                                <button class="bnt btn-success">上一題</button>  <button class="bnt btn-success">下一題</button>
+                            </div>
+                        </div>
+                    </footer>
+                </div>-->
+                <!-- 試卷面板结束-->
+                <!-- 進度和試卷訊息面板開始,懸浮面板-->
+                <!--<div style="position:fixed;top:20px;right:5px" class="col-md-3 col-sm-5">
+                    <div class="navbar navbar-inverse navbar-fixed-top">
+                        <div class="navbar-inner">-->
+                            @*fluid 是偏移一部分*@
+                            @*<div class="container-fluid">
+                                <div class="card">
+                                    <div class="card-header">
+
+                                    </div>
+                                    <div class="card-body">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>-->*@
+
+                    <!-- 訊息部分開始 -->
+                    <!--<div class="card shadow-sm mb-3">
+                        <div class="card-header">
+                            <a class="h6 font-weight-bold text-gray-700">試卷資訊</a>
+                        </div>
+                        <div class="card-body">
+                            <p class="h6  text-gray-700">姓名: 小蘋果</p>
+                            <p class="h6  text-gray-700">科目: C#####</p>
+                            <p class="h6  text-gray-700">試卷: Test1</p>
+                        </div>
+                    </div>-->
+                    <!-- 訊息部分结束 -->
+                    <!-- 計時部分开始 -->
+                    <!--<div class="card shadow-sm mb-3">
+                        <div class="card-body">
+                            <span class="text-lg text-danger">1:09:00</span>
+                        </div>
+                    </div>-->
+                    <!-- 計時部分结束 -->
+
+                    <!--<div class="card shadow-sm mb-md-3">
+                        <div class="card-header">
+                            <a class="h6 font-weight-bold text-gray-700">答題卡</a>
+                        </div>
+                        <div class="card-body">
+
+                            <hr />-->
+                            <!-- 答題卡開始 -->
+                            
+                                <!--<div class="row align-middle">
+                                    <div class="col-md-2 col-sm-4 mb-2">-->
+                                        <!-- 超連結跳轉题目 -->
+                                        <!--<a href="#" class="btn-sm btn-primary btn-circle">
+                                            1
+                                        </a>
+                                    </div>
+                                    <div class="col-md-2 col-sm-4">
+                                        <a href="#" class="btn-sm btn-primary btn-circle">
+                                            2
+                                        </a>
+                                    </div>
+                                    <div class="col-md-2 col-sm-4">
+                                        <a href="#" class="btn-sm btn-primary btn-circle">
+                                            3
+                                        </a>
+                                    </div>
+                                    <div class="col-md-2 col-sm-4">
+                                        <a href="#" class="btn-sm btn-primary btn-circle">
+                                            4
+                                        </a>
+                                    </div>
+                                    <div class="col-md-2 col-sm-4">
+                                        <a href="#" class="btn-sm btn-primary-outline btn-circle">
+                                            5
+                                        </a>
+                                    </div>
+                                    <div class="col-md-2 col-sm-4">
+                                        <a href="#" class="btn-sm btn-primary-outline btn-circle">
+                                            6
+                                        </a>
+                                    </div>
+                                    <div class="col-md-2 col-sm-4">
+                                        <a href="#" class="btn-sm btn-primary-outline btn-circle">
+                                            7
+                                        </a>
+                                    </div>
+
+                                </div>
+                            
+                        </div>
+                    </div>-->
+                    <!-- 答題卡结束 -->
+                    <!--<br /> <br /> <br />-->
+                    <!-- 交卷部分開始 -->
+                    <!--<button class="btn btn-primary btn-block">提交</button>-->
+                    <!-- 交卷部分结束 -->
+                <!--</div>-->
+                <!-- 面板结束-->
+            <!--</div>
+        </div>
+    </div>
+</div>-->
+
+
+
+
+
+
+@*<p>
+        <a asp-action="Create">Create New</a>
+    </p>*@
+
+
+@*<div>
+        <div>
+            Q:@Html.DisplayFor(model => @Model.ToList()[0].FQuestion)
+        </div>
+        <div>
+            @Html.RadioButtonFor(model => @Model.ToList()[0].FChoose, "1") (A) @Html.DisplayFor(model => @Model.ToList()[0].FOption1)
+        </div>
+        <div>
+            @Html.RadioButtonFor(model => @Model.ToList()[0].FChoose, "2") (B) @Html.DisplayFor(model => @Model.ToList()[0].FOption2)
+        </div>
+        <div>
+            @Html.RadioButtonFor(model => @Model.ToList()[0].FChoose, "3") (C) @Html.DisplayFor(model => @Model.ToList()[0].FOption3)
+        </div>
+        <div>
+            @Html.RadioButtonFor(model => @Model.ToList()[0].FChoose, "4") (D) @Html.DisplayFor(model => @Model.ToList()[0].FOption4)
+        </div>
+
+    </div>*@
+
+<div class="container mt-5">
+    <h1>StartExam</h1>
+    <br />
+    <div class="row">
+        <div class="col">
+            <form asp-action="StartExam">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="FRecordId" class="control-label"></label>
+                    <input asp-for="FRecordId" class="form-control" />
+                    <span asp-validation-for="FRecordId" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="FStudentId" class="control-label"></label>
+                    <input asp-for="FStudentId" class="form-control" />
+                    <span asp-validation-for="FStudentId" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="FExamPaperId" class="control-label"></label>
+                    <input asp-for="FExamPaperId" class="form-control" />
+                    <span asp-validation-for="FExamPaperId" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="FSujectId" class="control-label"></label>
+                    <input asp-for="FSujectId" class="form-control" />
+                    <span asp-validation-for="FSujectId" class="text-danger"></span>
+                </div>
+                
+                <div class="form-group">
+                    <label asp-for="FQuestion" class="control-label"></label>
+                    <input asp-for="FQuestion" class="form-control" />
+                    <span asp-validation-for="FQuestion" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="FChoose" class="control-label"></label>
+                    <input asp-for="FChoose" class="form-control" />
+                    <span asp-validation-for="FChoose" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="FOption1" class="control-label"></label>
+                    <input asp-for="FOption1" class="form-control" />
+                    <span asp-validation-for="FOption1" class="text-danger"></span>
+                </div>
+
+              
+                <div class="form-group">
+                    <input type="submit" value="交卷" class="btn btn-primary btn-block" />
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@*@foreach (var item in Model)
+    {
+        <div>
+            <div>
+                Q:@Html.DisplayFor(modelItem => item.FQuestion)
+            </div>
+            <br />
+            <div>
+                @Html.RadioButtonFor(model => @Model.ToList()[0].FChoose, "1") (A) @Html.DisplayFor(modelItem => item.FOption1)
+            </div>
+            <div>
+                @Html.RadioButtonFor(model => @Model.ToList()[0].FChoose, "2") (B) @Html.DisplayFor(modelItem => item.FOption2)
+            </div>
+            <div>
+                @Html.RadioButtonFor(model => @Model.ToList()[0].FChoose, "3") (C) @Html.DisplayFor(modelItem => item.FOption3)
+            </div>
+            <div>
+                @Html.RadioButtonFor(model => @Model.ToList()[0].FChoose, "4") (D) @Html.DisplayFor(modelItem => item.FOption4)
+            </div>
+            <br /><br /><br />
+
+        </div>
+    }*@
+
+
+@*<table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.FRecordId)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.FStudentId)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.FExamPaperId)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.FSujectId)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.FDateTime)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.FChoose)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.FEpDetailId)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.FName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.FTimeLimit)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.FQuestion)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.FOption1)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.FOption2)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.FOption3)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.FOption4)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.FRecordId)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.FStudentId)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.FExamPaperId)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.FSujectId)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.FDateTime)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.FChoose)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.FEpDetailId)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.FName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.FTimeLimit)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.FQuestion)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.FOption1)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.FOption2)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.FOption3)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.FOption4)
+                    </td>
+                    <td>
+                        @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                        @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                        @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>*@

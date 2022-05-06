@@ -1,0 +1,327 @@
+﻿@*@model IEnumerable<ISpanSTA.ViewModel.CExamPaperViewModel>*@
+@model X.PagedList.IPagedList<ISpanSTA.ViewModel.CExampDetailsViewModel>
+@using X.PagedList.Mvc.Core;
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+@section Header{
+
+    <!-- Main Navigation -->
+    <nav class="main_nav_container,align-items-center">
+        <div class="main_nav">
+            <ul id="main_nav_list" class="main_nav_list">
+                <li class="main_nav_item">
+                    <a href="Shome.html">主頁面</a>
+                </li>
+                <li class="main_nav_item">
+                    <a asp-controller="AHome" asp-action="ArrangeCourse">排課系統</a>
+                </li>
+                <li class="main_nav_item">
+                    <a asp-controller="AHome" asp-action="Leave">出缺勤系統</a>
+                </li>
+                <li class="main_nav_item">
+                    <a href="Shomework.html">作業平台</a>
+                </li>
+                <li class="main_nav_item">
+                    <a href="Stest.html">考試平台</a>
+                </li>
+                <li class="main_nav_item">
+                    <a href="Svideo.html">影片平台</a>
+                </li>
+                <li class="main_nav_item">
+                    <a href="Squestionaire.html">問卷調查</a>
+                </li>
+                <li class="main_nav_item">
+                    <a href="Slearning.html">學習歷程後台</a>
+                </li>
+                <li class="main_nav_item">
+                    <a href="Sforum.html">討論區後台</a>
+                </li>
+                <li class="main_nav_item">
+                    <a href="Sworking.html">就業追蹤</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+}
+
+<head>
+    <link rel="stylesheet" type="text/css" href="~/styles/bootstrap4/bootstrap.min.css">
+    <link href="~/Scripts/plugins/fontawesome-free-5.0.1/css/fontawesome-all.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="~/styles/exam_styles.css">
+    <link rel="stylesheet" type="text/css" href="~/styles/evaluation_responsive.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="~/calendar-15/fonts/icomoon/style.css">
+    <link rel="stylesheet" href="~/calendar-15/css/rome.css">
+    <link rel="stylesheet" href="~/calendar-15/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/calendar-15/css/style.css">
+</head>
+
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
+<body>
+    <div class="eva-container">
+        <div class="eva-menu">
+            <div class="eva-menu-box">
+                <div class="eva-menu-grpbox">
+                    <div class="eva-menu-grp">
+                        <div class="eva-menu-grptxt">
+                            <a href="~/QuestionBank/Index">題庫管理</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!--<div class="eva-menu-group">
+                <span class="eva-menu-txt">問卷群組</span>
+                <div class="@*eva-menu-addgrp*@">-->
+                @*<svg width="1em" height="1em" fill="currentColor" aria-hidden="true" focusable="false" viewBox="0 0 384 512" style="font-size: 1.3em;">
+                        <path d="M376 232H216V72c0-4.42-3.58-8-8-8h-32c-4.42 0-8 3.58-8 8v160H8c-4.42 0-8 3.58-8 8v32c0 4.42 3.58 8 8 8h160v160c0 4.42 3.58 8 8 8h32c4.42 0 8-3.58 8-8V280h160c4.42 0 8-3.58 8-8v-32c0-4.42-3.58-8-8-8z">
+                        </path>
+                    </svg>*@
+                <!--</div>
+                </div>-->
+                <div class="eva-menu-grpbox">
+                    <div class="eva-menu-grp">
+                        <div class="eva-menu-grptxt">
+                            <a href="~/TExamPaper/Index">試卷管理</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="eva-menu-grpbox">
+                    <div class="eva-menu-grp">
+                        <div class="eva-menu-grptxt">
+                            <a href="~/TSjCategory/Index">測驗結果分析</a>
+                        </div>
+                    </div>
+                </div>
+                @*<div class="eva-menu-grpAdd">
+                        點+後新增一個div在這裡, class=eva-menu-grp
+                    </div>*@
+            </div>
+        </div>
+        <div id="eva-content" class="eva-content">
+            <div class="eva-content-title">
+                <div class="eva-content-title-box">
+                    <h4 class="eva-content-title-t">試卷一覽表</h4>
+                </div>
+            </div>
+            <div class="eva-content-statusCon">
+                <div class="eva-content-status-filterAll">
+                    <div class="eva-content-status-filter">
+                        <div class="MuiInputBase-root">
+                            <div class="selectDiv">
+                                <select class="form-select" style="width: 128px; height: 32px; ">
+                                    <option value="" style="display: none">全部班級</option>
+                                    <option>MSIT39</option>
+                                    <option>MSIT40</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="eva-content-status-filter">
+                        <div class="MuiInputBase-root">
+                            <div class="selectDiv">
+                                <select class="form-select" style="width: 128px; height: 32px; ">
+                                    <option value="" style="display: none">全部課程</option>
+                                    <option>c#</option>
+                                    <option>TSQL</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="css-1r8wtpk"></div>
+                    <div class="filterByDate">
+                        <span class="css-1kuzifl">建立日期</span>
+                        <span class="css-1kuzifl">從</span>
+                        <div class="pickDate">
+                            <div class="MuiInputBase-root">
+                                <input type="text" class="form-control" id="input_from" placeholder="開始日期">
+                            </div>
+                        </div>
+                        <div class="dateClear">
+                            <svg width="1em" height="1em" fill="currentColor" aria-hidden="true" focusable="false" viewBox="0 0 512 512" style="font-size: 1em;"><path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 464c-118.7 0-216-96.1-216-216 0-118.7 96.1-216 216-216 118.7 0 216 96.1 216 216 0 118.7-96.1 216-216 216zm94.8-285.3L281.5 256l69.3 69.3c4.7 4.7 4.7 12.3 0 17l-8.5 8.5c-4.7 4.7-12.3 4.7-17 0L256 281.5l-69.3 69.3c-4.7 4.7-12.3 4.7-17 0l-8.5-8.5c-4.7-4.7-4.7-12.3 0-17l69.3-69.3-69.3-69.3c-4.7-4.7-4.7-12.3 0-17l8.5-8.5c4.7-4.7 12.3-4.7 17 0l69.3 69.3 69.3-69.3c4.7-4.7 12.3-4.7 17 0l8.5 8.5c4.6 4.7 4.6 12.3 0 17z"></path></svg>
+                        </div>
+                        <span class="css-1kuzifl">到</span>
+                        <div class="pickDate">
+                            <section class="css-cssveg">
+                                <section class="css-ndnzd1">
+                                    <svg width="1em" height="1em" fill="currentColor" aria-hidden="true" focusable="false" viewBox="0 0 448 512" style="font-size: 1em;"><path d="M400 64h-48V12c0-6.6-5.4-12-12-12h-8c-6.6 0-12 5.4-12 12v52H128V12c0-6.6-5.4-12-12-12h-8c-6.6 0-12 5.4-12 12v52H48C21.5 64 0 85.5 0 112v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zM48 96h352c8.8 0 16 7.2 16 16v48H32v-48c0-8.8 7.2-16 16-16zm352 384H48c-8.8 0-16-7.2-16-16V192h384v272c0 8.8-7.2 16-16 16zM148 320h-40c-6.6 0-12-5.4-12-12v-40c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12zm96 0h-40c-6.6 0-12-5.4-12-12v-40c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12zm96 0h-40c-6.6 0-12-5.4-12-12v-40c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12zm-96 96h-40c-6.6 0-12-5.4-12-12v-40c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12zm-96 0h-40c-6.6 0-12-5.4-12-12v-40c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12zm192 0h-40c-6.6 0-12-5.4-12-12v-40c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12z"></path></svg>
+                                </section>
+                                <div class="MuiFormControl-root MuiTextField-root jss28" format="yyyy/MM/dd">
+                                    <div class="MuiInputBase-root MuiOutlinedInput-root jss26 MuiInputBase-formControl">
+                                        <input type="text" class="form-control" id="input_to" placeholder="結束日期">
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+                <div class="AddNewSurvey-big">
+                    <button class="AddNewSurvey" tabindex="0" type="button">
+                        <span class="AddNewSurvey-label">
+                            <div class="AddNewSurvey-con">
+                                <div class="AddNewSurvey-icon">
+                                    <svg width="1em" height="1em" fill="#FFA500" aria-hidden="true" focusable="false" viewBox="0 0 512 512" style="font-size: 1em;"><path d="M384 250v12c0 6.6-5.4 12-12 12h-98v98c0 6.6-5.4 12-12 12h-12c-6.6 0-12-5.4-12-12v-98h-98c-6.6 0-12-5.4-12-12v-12c0-6.6 5.4-12 12-12h98v-98c0-6.6 5.4-12 12-12h12c6.6 0 12 5.4 12 12v98h98c6.6 0 12 5.4 12 12zm120 6c0 137-111 248-248 248S8 393 8 256 119 8 256 8s248 111 248 248zm-32 0c0-119.9-97.3-216-216-216-119.9 0-216 97.3-216 216 0 119.9 97.3 216 216 216 119.9 0 216-97.3 216-216z"></path></svg>
+                                </div><a href="~/TExamPaper/Create" style="color: #FFA500">建立新試卷</a>
+                            </div>
+                        </span>
+                    </button>
+                </div>
+            </div>
+            <div class="HeaderList">
+                <div class="showList">
+                    <div class="showListAll">
+                        <span class="showListAll-t1">顯示</span>
+                        <div class="listNumCon">
+                            <select class="form-select">
+                                <option>10</option>
+                                <option>20</option>
+                            </select>
+                        </div>
+                        <span class="showListAll-t2">筆資料</span>
+                    </div>
+                </div>
+
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            @*<th>
+            @Html.DisplayNameFor(model => model.FExamPaperId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FClassPeriod)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FCourseId)
+        </th>*@
+                            <th>
+                                序
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.FirstOrDefault().FCourseName)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.FirstOrDefault().FName)
+                            </th>
+                            @*<th>
+            @Html.DisplayNameFor(model => model.FDescription)
+        </th>*@
+                            <th>
+                                @Html.DisplayNameFor(model => model.FirstOrDefault().FBegin)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.FirstOrDefault().FEnd)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.FirstOrDefault().FTimeLimit)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.FirstOrDefault().FReveal)
+                            </th>
+                            @*<th>
+            @Html.DisplayNameFor(model => model.FOrder)
+        </th>*@
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @{
+                            int count;
+                            if (@Model.PageNumber == 1)
+                            {
+                                count = 0;
+                            }
+                            else
+                            {
+                                count = @Model.PageSize * (@Model.PageNumber - 1);
+                            }
+
+
+                            foreach (var item in Model)
+                            {
+                                count++;
+                                                <tr>
+                                                    <td>
+                                                        @count
+                                                    </td>
+                                                    @*<td>
+            @Html.DisplayFor(modelItem => item.FExamPaperId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.FClassPeriod)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.FCourseId)
+        </td>*@
+                                                    <td>
+                                                        @Html.DisplayFor(modelItem => item.FCourseName)
+                                                    </td>
+                                                    <td>
+                                                        @Html.DisplayFor(modelItem => item.FName)
+                                                    </td>
+                                                    @*<td>
+            @Html.DisplayFor(modelItem => item.FDescription)
+        </td>*@
+                                                    <td>
+                                                        @Html.DisplayFor(modelItem => item.FBegin)
+                                                    </td>
+                                                    <td>
+                                                        @Html.DisplayFor(modelItem => item.FEnd)
+                                                    </td>
+                                                    <td>
+                                                        @Html.DisplayFor(modelItem => item.FTimeLimit)
+                                                    </td>
+                                                    <td>                                                        
+                                                        @Html.DisplayFor(modelItem => item.FReveal)
+                                                    </td>
+                                                    @*<td>
+            @Html.DisplayFor(modelItem => item.FOrder)
+        </td>*@
+                                                    <td>
+                                                        <button type="button" class="btn btn-outline-success"><i class="fas fa-eye">@Html.ActionLink("查看", "Details", new { id = item.FExamPaperId })</i></button>
+                                                        <button type="button" class="btn btn-outline-warning"><i class="fas fa-edit">@Html.ActionLink("編輯", "Edit", new { id = item.FExamPaperId, clId = item.FClassPeriod, coId = item.FCourseId })</i></button>
+                                                        <button type="button" class="btn btn-outline-danger"><i class="fas fa-trash-alt">@Html.ActionLink("刪除", "Delete", "TExamPaper", new { id = item.FExamPaperId }, new { onclick = "return confirm('確定要刪除嗎?')" })</i></button>
+                                                    </td>
+                                                </tr>
+                            }
+                        }
+                    </tbody>
+                </table>
+                <div class="ListFooter">
+                    <div data-qa="pageTotal">
+                        顯示 @(@count- @Model.Count()+1) 至 @count 筆，共 @Model.TotalItemCount.ToString() 筆資料
+                    </div>
+                    <css-1smfbm9>
+                        <div class="MuiBox-root pageBox">
+                            <br />
+                            Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount &emsp;
+
+                            @Html.PagedListPager(Model, page => Url.Action("Index",
+                                new { page, sortOrder = ViewBag.CurrentSort, currentFilter = ViewBag.CurrentFilter }))
+                            @*<button class="MuiButtonBase-root MuiIconButton-root jss66 jss72 Mui-disabled MuiIconButton-sizeSmall Mui-disabled" tabindex="-1" type="button" disabled="" aria-disabled="true"><span class="MuiIconButton-label"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit" focusable="false" viewBox="0 0 256 512" aria-hidden="true"><path d="M238.475 475.535l7.071-7.07c4.686-4.686 4.686-12.284 0-16.971L50.053 256 245.546 60.506c4.686-4.686 4.686-12.284 0-16.971l-7.071-7.07c-4.686-4.686-12.284-4.686-16.97 0L10.454 247.515c-4.686 4.686-4.686 12.284 0 16.971l211.051 211.05c4.686 4.686 12.284 4.686 16.97-.001z"></path></svg></span></button>
+        <div class="MuiBox-root jss73" data-page="1" data-total-pages="1">
+            <div class="MuiFormControl-root MuiTextField-root pageNum">
+                <div class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl">
+                    <input aria-invalid="false" type="text" class="MuiInputBase-input MuiOutlinedInput-input jss64" value="1">
+                    <fieldset aria-hidden="true" class="jss22 MuiOutlinedInput-notchedOutline" style="padding-left: 8px;"><legend class="jss23" style="width: 0.01px;"><span>​</span></legend></fieldset>
+                </div>
+            </div>
+            <div class="MuiBox-root jss74">
+                <p class="MuiTypography-root MuiTypography-body1">／</p>
+            </div>
+            <p class="MuiTypography-root MuiTypography-body1">1</p>
+        </div>
+        <button class="MuiButtonBase-root MuiIconButton-root jss66 jss75 Mui-disabled MuiIconButton-sizeSmall Mui-disabled" tabindex="-1" type="button" disabled="" aria-disabled="true"><span class="MuiIconButton-label"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit" focusable="false" viewBox="0 0 256 512" aria-hidden="true"><path d="M17.525 36.465l-7.071 7.07c-4.686 4.686-4.686 12.284 0 16.971L205.947 256 10.454 451.494c-4.686 4.686-4.686 12.284 0 16.971l7.071 7.07c4.686 4.686 12.284 4.686 16.97 0l211.051-211.05c4.686-4.686 4.686-12.284 0-16.971L34.495 36.465c-4.686-4.687-12.284-4.687-16.97 0z"></path></svg></span></button>*@
+                        </div>
+                    </css-1smfbm9>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>

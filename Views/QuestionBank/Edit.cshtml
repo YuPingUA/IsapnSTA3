@@ -1,0 +1,156 @@
+﻿@model ISpanSTA.ViewModel.CExamViewModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+<div class="container mt-5">
+    <div>
+        <h3><a asp-action="Index"><<返回</a></h3>
+    </div>
+    <br />
+    <h1>編輯題目</h1>
+    <hr />
+
+    <div class="row">
+        <div class="col">
+            <form asp-action="Edit">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input type="hidden" asp-for="FSujectId" />
+                <div class="row">
+                    <div class="col-6">
+                        <div class="form-group">
+                            <label asp-for="FCourseName" class="control-label"></label>
+                            <select asp-for="FCourseId" class="form-control" asp-items="ViewBag.FCourseName"></select>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="form-group">
+                            <label asp-for="FCategoryName" class="control-label"></label>
+                            <select asp-for="FCategoryId" class="form-control" asp-items="ViewBag.FCategoryName"></select>
+                        </div>
+                    </div>
+                    </div>
+                        @*<div class="form-group">
+                <label asp-for="FCourseName" class="control-label"></label>
+                <input asp-for="FCourseName" class="form-control" />
+                <span asp-validation-for="FCourseName" class="text-danger"></span>
+            </div>*@
+                        
+                        @*<div class="form-group">
+                <label asp-for="FCategoryName" class="control-label"></label>
+                <input asp-for="FCategoryName" class="form-control" />
+                <span asp-validation-for="FCategoryName" class="text-danger"></span>
+            </div>*@
+                        <div class="form-group">
+                            <label asp-for="FTypeName" class="control-label"></label>
+                            <select asp-for="FTypeId" class="form-control" asp-items="ViewBag.FTypeName"></select>
+                        </div>
+                        @*<div class="form-group">
+                <label asp-for="FTypeName" class="control-label"></label>
+                <input asp-for="FTypeName" class="form-control" />
+                <span asp-validation-for="FTypeName" class="text-danger"></span>
+            </div>*@
+                        <div class="form-group">
+                            <label asp-for="FQuestion" class="control-label"></label>
+                            <textarea asp-for="FQuestion" class="form-control" ></textarea>
+                            <span asp-validation-for="FQuestion" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="FOption1" class="control-label"></label>
+                            <input asp-for="FOption1" class="form-control" />
+                            <span asp-validation-for="FOption1" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="FOption2" class="control-label"></label>
+                            <input asp-for="FOption2" class="form-control" />
+                            <span asp-validation-for="FOption2" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="FOption3" class="control-label"></label>
+                            <input asp-for="FOption3" class="form-control" />
+                            <span asp-validation-for="FOption3" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="FOption4" class="control-label"></label>
+                            <input asp-for="FOption4" class="form-control" />
+                            <span asp-validation-for="FOption4" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="FAns" class="control-label"></label>
+                            @*<input asp-for="FAns" class="form-control" />*@
+                            <select asp-for="FAns" class="form-control">
+                                <option value="1">A</option>
+                                <option value="2">B</option>
+                                <option value="3">C</option>
+                                <option value="4">D</option>
+                            </select>
+                            <span asp-validation-for="FAns" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="FAnsAnalyze" class="control-label"></label>
+                            <textarea asp-for="FAnsAnalyze" class="form-control" ></textarea>
+                            <span asp-validation-for="FAnsAnalyze" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" value="確認" class="btn btn-primary" />
+                        </div>
+</form>
+        </div>
+    </div>
+</div>
+
+    @section Scripts {
+
+        <script>
+    const selCourse = document.querySelector('#FCourseId');
+    const selCategory = document.querySelector('#FCategoryId');
+
+    selCourse.addEventListener('change', async function () {
+        const course = selCourse.options[selCourse.selectedIndex].value;
+        await LoadCategory(course);
+    })
+
+
+
+    async function LoadCourseCategory() {
+        //載入課程
+        const responseCourse = await fetch('@Url.Content("~/QuestionBank/courseFilter")');
+        renderCourse(await responseCourse.json());
+
+        //根據課程名稱載入類別
+        const course = selCourse.options[selCourse.selectedIndex].value;
+        await LoadCategory(course);
+
+    }
+
+        LoadCourseCategory();
+
+    async function LoadCategory(courseId) {
+        const responseCategory = await fetch("@Url.Content("~/QuestionBank/categoryFilter")" + `?courseId=${courseId}`);
+        renderCategory(await responseCategory.json());
+    }
+
+        function renderCourse(datas) {
+            selCourse.options.length = 0;
+            datas.forEach((item) => {
+                const opt = new Option(item.fCourse, item.fCourseId);
+                selCourse.options.add(opt);
+
+            })
+
+            selCourse.selectedIndex = @ViewBag.coIdIndex;
+
+        }
+
+    function renderCategory(datas) {
+        selCategory.options.length = 0;
+        datas.forEach((item) => {
+            const opt = new Option(item.fName, item.fCategoryId);
+            selCategory.options.add(opt);
+        })
+
+        selCategory.selectedIndex = @ViewBag.caIdIndex;
+    }
+        </script>
+        @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    }

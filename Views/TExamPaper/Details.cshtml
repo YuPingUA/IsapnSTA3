@@ -1,0 +1,94 @@
+﻿@model IEnumerable<ISpanSTA.ViewModel.CExampDetailsViewModel>
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<div class="container mt-5">
+    <div>
+        <h3><a asp-action="Index"><<返回</a></h3>
+    </div>
+
+    <h1>試卷明細</h1>
+    <hr />
+    <div>
+        <table class="table table-bordered" style="width: 50%; margin: 0px auto;">
+            <thead>
+                <tr>
+                    @*<th scope="col">#</th>
+                        <th scope="col">First</th>
+                        <th scope="col">Last</th>*@
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">@Html.DisplayNameFor(model => model.FClassPeriod)</th>
+                    <td>@Html.DisplayFor(model => @Model.ToList()[0].FClassPeriod)</td>
+                </tr>
+                <tr>
+                    <th scope="row">@Html.DisplayNameFor(model => model.FCourseName)</th>
+                    <td>@Html.DisplayFor(model => @Model.ToList()[0].FCourseName)</td>
+                </tr>
+                <tr>
+                    <th scope="row">@Html.DisplayNameFor(model => model.FName)</th>
+                    <td>@Html.DisplayFor(model => @Model.ToList()[0].FName)</td>
+                </tr>
+                <tr>
+                    <th scope="row">@Html.DisplayNameFor(model => model.FDescription)</th>
+                    <td>@Html.DisplayFor(model => @Model.ToList()[0].FDescription)</td>
+                </tr>
+                <tr>
+                    <th scope="row">@Html.DisplayNameFor(model => model.FBegin)</th>
+                    <td>@Html.DisplayFor(model => @Model.ToList()[0].FBegin)</td>
+                </tr>
+                <tr>
+                    <th scope="row">@Html.DisplayNameFor(model => model.FEnd)</th>
+                    <td>@Html.DisplayFor(model => @Model.ToList()[0].FEnd)</td>
+                </tr>
+                <tr>
+                    <th scope="row">@Html.DisplayNameFor(model => model.FTimeLimit)</th>
+                    <td>@Html.DisplayFor(model => @Model.ToList()[0].FTimeLimit)</td>
+                </tr>
+                <tr>
+                    <th scope="row">@Html.DisplayNameFor(model => model.FReveal)</th>
+                    <td>@Html.DisplayFor(model => @Model.ToList()[0].FReveal)</td>
+                </tr>
+                <tr>
+                    <th scope="row">@Html.DisplayNameFor(model => model.FOrder)</th>
+                    <td>@Html.DisplayFor(model => @Model.ToList()[0].FOrder)</td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+
+    <hr />
+
+    <div style="height:1200px">
+        @{
+            var count = 0;
+            foreach (var item in Model)
+            {
+                count++;
+
+                <div class="card border-success mb-3" style="width: 45%;height:500px;float:left;margin:20px">
+                    <div class="card-header bg-transparent border-success"><p style="color:green;display:inline">@count、題目：</p>@Html.DisplayFor(modelItem => item.FQuestion)</div>
+                    <div class="card-body text-success">
+                        <h4 class="card-title">選項：</h4>
+                        <p class="card-text">(A)@Html.DisplayFor(modelItem => item.FOption1)</p>
+                        <p class="card-text">(B)@Html.DisplayFor(modelItem => item.FOption2)</p>
+                        <p class="card-text">(C)@Html.DisplayFor(modelItem => item.FOption3)</p>
+                        <p class="card-text">(D)@Html.DisplayFor(modelItem => item.FOption4)</p>
+                    </div>
+                    <div class="card-footer bg-transparent border-success">
+                        <p style="color: green; display: inline">正解：</p><p style="display:inline">@Html.DisplayFor(modelItem => item.FAns)</p>
+                        <br />
+                        <p style="color: green; display: inline">解析：</p><p style="display:inline">@Html.DisplayFor(modelItem => item.FAnsAnalyze)</p>
+                    </div>
+                </div>
+            }
+        }
+    </div>
+
+</div>

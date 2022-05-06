@@ -1,0 +1,73 @@
+﻿@model ISpanSTA.ViewModel.CExamViewModel
+@{
+    ViewData["Title"] = "Details";
+}
+<div class="container mt-5">
+    <div>
+        <h3><a asp-action="Index"><<返回</a></h3>
+    </div>
+    <br />
+    <h1>題目明細</h1>
+    <hr />
+
+    <div> 
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    @*<th scope="col">#</th>
+                    <th scope="col">First</th>
+                    <th scope="col">Last</th>*@
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">@Html.DisplayNameFor(model => model.FCourseName)</th>
+                    <td colspan="2">@Html.DisplayFor(model => model.FCourseName)</td>
+                </tr>
+                <tr>
+                    <th scope="row">@Html.DisplayNameFor(model => model.FCategoryName)</th>
+                    <td colspan="2">@Html.DisplayFor(model => model.FCategoryName)</td>
+                </tr>
+                <tr>
+                    <th scope="row">@Html.DisplayNameFor(model => model.FTypeName)</th>
+                    <td colspan="2">@Html.DisplayFor(model => model.FTypeName)</td>
+                </tr>
+                <tr>
+                    <th scope="row">@Html.DisplayNameFor(model => model.FQuestion)</th>
+                    <td colspan="2">@Html.DisplayFor(model => model.FQuestion)</td>
+                </tr>
+                <tr>
+                    <th scope="row">@Html.DisplayNameFor(model => model.FOption1)</th>
+                    <td colspan="2">@Html.DisplayFor(model => model.FOption1)</td>
+                </tr>
+                <tr>
+                    <th scope="row">@Html.DisplayNameFor(model => model.FOption2)</th>
+                    <td colspan="2">@Html.DisplayFor(model => model.FOption2)</td>
+                </tr>
+                <tr>
+                    <th scope="row">@Html.DisplayNameFor(model => model.FOption3)</th>
+                    <td colspan="2">@Html.DisplayFor(model => model.FOption3)</td>
+                </tr>
+                <tr>
+                    <th scope="row">@Html.DisplayNameFor(model => model.FOption4)</th>
+                    <td colspan="2">@Html.DisplayFor(model => model.FOption4)</td>
+                </tr>
+                <tr>
+                    <th scope="row">@Html.DisplayNameFor(model => model.FAns)</th>
+                    <td colspan="2">@Html.DisplayFor(model => model.FAns)</td>
+                </tr>
+                <tr>
+                    <th scope="row">@Html.DisplayNameFor(model => model.FAnsAnalyze)</th>
+                    <td colspan="2">@Html.DisplayFor(model => model.FAnsAnalyze)</td>
+                </tr>
+
+            </tbody>
+        </table>
+
+    </div>
+    </div>
+    <div>
+        @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+        
+    </div>
