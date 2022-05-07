@@ -14,47 +14,6 @@
 
 @Html.DisplayFor(modelItem => @Model.ToList()[0].FClassPeriod)
 
-@*<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.FExamPaperId)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.FClassPeriod)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.FCourseId)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.FCourseName)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.FName)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.FDescription)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.FBegin)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.FEnd)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.FTimeLimit)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.FReveal)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.FOrder)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>*@
-
 <div style="height:1200px">
     @foreach (var item in Model)
     {
@@ -77,63 +36,30 @@
                     @*<a href="#" class=" btn btn-info card-link">Card link</a>
                         <a href="#" class=" btn btn-outline-danger card-link">Another link</a>*@
                     <button type="button" class="btn btn-outline-success" id="btnStart"><i class="fas fa-sign-in-alt">@Html.ActionLink("進入考試", "StartExam4", new { id = item.FExamPaperId })</i></button>
-                    <button type="button" class="btn btn-outline-danger"><i class="fas fa-eye">@Html.ActionLink("查看結果", "Details", new { /* id=item.PrimaryKey */ })</i></button>
+                    <button type="button" class="btn btn-outline-danger"><i class="fas fa-eye">@Html.ActionLink("查看結果", "epResult", new { id=item.FExamPaperId, stuId=5,bingo=ViewBag.bingoList })</i></button>
                 </div>
             </div>
         </div>
-
-        @*<tr>
-                <td>
-                    @Html.DisplayFor(modelItem => item.FExamPaperId)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.FClassPeriod)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.FCourseId)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.FCourseName)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.FName)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.FDescription)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.FBegin)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.FEnd)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.FTimeLimit)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.FReveal)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.FOrder)
-                </td>
-                <td>
-                    <button type="button" class="btn btn-outline-success"><i class="fas fa-sign-in-alt">@Html.ActionLink("進入考試", "StartExam", new { id = item.FExamPaperId })</i></button>
-                    <button type="button" class="btn btn-outline-danger"><i class="fas fa-eye">@Html.ActionLink("查看結果", "Details", new { /* id=item.PrimaryKey */ })</i></button>|
-                    @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
-                </td>
-
-
-            </tr>*@
+       
     }
 </div>
-@*</tbody>
-    </table>*@
+
 
 @section Scripts {
+
+
+
     <script>
         $('#btnStart').click(function () {
-            
+
         })
+
+
+
+
+
+
+
     </script>
 
 }

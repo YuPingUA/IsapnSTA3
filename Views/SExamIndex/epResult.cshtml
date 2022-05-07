@@ -1,0 +1,115 @@
+﻿@model ISpanSTA.ViewModel.CStartExam2ViewModel
+@{
+    ViewData["Title"] = "epResult";
+}
+
+<div class="container mt-5">
+    <h1>@Model.examp.FName 測驗結果：<span style="color:red">90分</span></h1>
+
+    @{
+        int count = 0;
+        int cc = -1;
+        for (int i = 0; i < Model.subject.Count; i++)
+        {
+            cc++;
+            count++;
+            <table class="table" id="@cc">
+                <thead>
+                    <tr>
+                        <th>
+                            Q:@count&nbsp;&nbsp;@Model.subject[i].FQuestion
+                        </th>
+
+                    </tr>
+                </thead>
+                <tbody>
+
+                    <tr>
+                        <td>
+                            A：@Model.subject[i].FOption1
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            B：@Model.subject[i].FOption2
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            C：@Model.subject[i].FOption3
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            D：@Model.subject[i].FOption4
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            您的答案：@Model.record[i].FChoose
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            正確答案：@Model.subject[i].FAns
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            解析：@Model.subject[i].FAnsAnalyze
+                        </td>
+                    </tr>
+
+                </tbody>
+            </table>
+        }
+
+    }
+</div>
+
+
+@section Scripts {
+    <script>
+
+
+    //$(document).ready(function () {
+    //    $("#1").attr('style', 'background-color:red');
+    //});
+
+
+        $(document).ready(function () {
+
+            @*@{
+                int a = @Model.record.Count;
+                for (int i = 0; i < a; i++)
+                {
+                    if(i == @ViewBag.bingoList[i])
+                    {
+                        @:$("#@{i}").attr('style', 'background-color:red');
+                }
+                    }
+
+            }*@
+
+        });
+
+
+
+    </script>
+    @{
+        int a = Model.record.Count;
+        for (int i = 0; i < a; i++)
+        {
+            foreach (var item in Model.bingo)
+            {
+                if (i == item)
+                {
+                    
+        <script>
+                        $(document).ready(function(){
+                            $(`#@i`).css("background-color", "red")
+                        })
+
+        </script>
+                }
+            }
+        }
+    }
+}

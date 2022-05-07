@@ -810,11 +810,7 @@ E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpa
 E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\QuestionBank\Index.cshtml.g.cs
 E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\QuestionBank\Post.cshtml.g.cs
 E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\SExamIndex\Index.cshtml.g.cs
-E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\SExamIndex\StartExam.cshtml.g.cs
-E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\SExamIndex\StartExam2.cshtml.g.cs
-E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\SExamIndex\StartExam3.cshtml.g.cs
 E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\SExamIndex\StartExam4.cshtml.g.cs
-E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\SExamIndex\testp.cshtml.g.cs
 E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
 E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
 E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
@@ -838,3 +834,6 @@ E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpa
 E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ref\ISpanSTA.dll
 E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ISpanSTA.pdb
 E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\ISpanSTA.genruntimeconfig.cache
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\SExamIndex\Index2.cshtml.g.cs
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\bin\Debug\net5.0\libman.json
+E:\專題製作第二組-7\IsapnSTA core-20220413T062834Z-001\IsapnSTA core\ISpanSTA\obj\Debug\net5.0\Razor\Views\SExamIndex\epResult.cshtml.g.cs

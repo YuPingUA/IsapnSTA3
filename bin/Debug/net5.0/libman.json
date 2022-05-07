@@ -1,0 +1,42 @@
+{
+  "version": "1.0",
+  "defaultProvider": "filesystem",
+  "libraries": [
+    {
+      "library": "wwwroot/css/",
+      "destination": "wwwroot/lib/css/",
+      "files": [
+        "style.css"
+      ]
+    },
+    {
+      "library": "wwwroot/js/",
+      "destination": "wwwroot/lib/js/",
+      "files": [
+        "main.js"
+      ]
+    },
+    {
+      "library": "wwwroot/lib/animate/",
+      "destination": "wwwroot/lib/animate/"
+    },
+    {
+      "library": "wwwroot/lib/easing",
+      "destination": "wwwroot/lib/easing/"
+    },
+    {
+      "library": "wwwroot/lib/flaticon",
+      "destination": "wwwroot/lib/flaticon/"
+    }
+  ,
+{
+  "library": "wwwroot/lib/tempusdominus/css/",
+  "destination": "wwwroot/lib/css/"
+}
+,
+{
+  "library": "wwwroot/lib/tempusdominus/js/",
+  "destination": "wwwroot/lib/js/"
+}
+]
+}
