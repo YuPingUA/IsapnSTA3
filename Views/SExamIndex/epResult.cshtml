@@ -3,6 +3,14 @@
     ViewData["Title"] = "epResult";
 }
 
+<style>
+    .table {
+        background-color: #FFE8E8;
+    }
+
+</style>
+
+
 <div class="container mt-5">
     <h1>@Model.examp.FName 測驗結果：<span style="color:red">90分</span></h1>
 
@@ -104,7 +112,7 @@
                     
         <script>
                         $(document).ready(function(){
-                            $(`#@i`).css("background-color", "red")
+                            $(`#@i`).css("background-color", "#DEFFDE")
                         })
 
         </script>

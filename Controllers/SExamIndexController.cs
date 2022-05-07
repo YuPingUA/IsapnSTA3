@@ -21,7 +21,7 @@ namespace ISpanSTA.Controllers
 
 
         // GET: SExamIndexController
-        public IActionResult Index(List<int> bingo) //TStudentFullInfo s
+        public IActionResult Index() //TStudentFullInfo s
         {            
             var data = from ep in _context.TExaminationPapers
                        join cl in _context.TClassFullInfos on ep.FClassPeriod equals cl.FClassPeriod
@@ -41,7 +41,7 @@ namespace ISpanSTA.Controllers
                            FDescription = ep.FDescription
                            
                        };
-            ViewBag.bingoList = bingo;
+           
             List<CExamPaperViewModel> list = new List<CExamPaperViewModel>();
             foreach (var t in data)
                 list.Add(t);
@@ -140,10 +140,10 @@ namespace ISpanSTA.Controllers
         }
 
                
-        public IActionResult CalcScore(CStartExam2ViewModel csc)
+        public IActionResult CalcScore(int? stuId, int? epId)
         {
             var dataRc = (from r in _context.TRecords
-                       where r.FStudentId == 5 && r.FExamPaperId == 2
+                       where r.FStudentId == 5 && r.FExamPaperId == (int)epId
                        orderby r.FSujectId
                        select r).ToList(); //抓出A學生填寫a試卷的題目作答紀錄
 
@@ -153,42 +153,47 @@ namespace ISpanSTA.Controllers
                 rc.Add(drc);
             }
 
-            var dataSj = (from s in _context.TSujects
-                          join r in _context.TRecords on s.FSujectId equals r.FSujectId
-                          orderby s.FSujectId
-                          select s).ToList(); //抓出試卷題目
+            var sj = (from epd in _context.TExamPaperDetails
+                      join ep in _context.TExaminationPapers on epd.FExamPaperId equals ep.FExamPaperId
+                      join s in _context.TSujects on epd.FSujectId equals s.FSujectId
+                      where epd.FExamPaperId == (int)epId
+                      orderby s.FSujectId
+                      select s).ToList();
 
-            List<TSuject> sj = new List<TSuject>();
-            foreach (var dsj in dataSj)
-            {
-                sj.Add(dsj);
-            }
+
+
+            //List<TSuject> sj = new List<TSuject>();
+            //foreach (var dsj in dataSj)
+            //{
+            //    sj.Add(dsj);
+            //}
 
 
             List<int> bingo = new List<int>();
 
-            for (int i = 0; i < dataSj.Count; i++)
+            for (int i = 0; i < sj.Count; i++)
             {
-                if(dataRc[i].FChoose == dataSj[i].FAns)
+                if (dataRc[i].FChoose == sj[i].FAns)
                 {
                     bingo.Add(i); //答對的題目(從0開始) .count答對數
                 }
             }
 
+
             ViewBag.bingoList = bingo;
             ViewBag.bingoCount = bingo.Count;
 
-            int scoreTotal = (100 / dataSj.Count) * bingo.Count;
+            int scoreTotal = (int)((100 / sj.Count) * bingo.Count);
 
             TScore sc = new TScore();
-            sc.FStudentId = csc.FStudentId;
-            sc.FExamPaperId = csc.FExamPaperId;
+            sc.FStudentId = stuId;
+            sc.FExamPaperId = epId;
             sc.FScore = scoreTotal;
 
             _context.TScores.Add(sc);
             _context.SaveChanges();
 
-            return RedirectToAction("Index",new {bingo=bingo });
+            return RedirectToAction("Index");
         }
 
 
@@ -239,7 +244,7 @@ namespace ISpanSTA.Controllers
                 //              orderby s.FSujectId
                 //              select s).ToList(); //抓出試卷題目
 
-                List<TSuject> sj2 = new List<TSuject>();
+                //List<TSuject> sj2 = new List<TSuject>();
                 //foreach (var dsj in sj)
                 //{
                 //    sj.Add(dsj);

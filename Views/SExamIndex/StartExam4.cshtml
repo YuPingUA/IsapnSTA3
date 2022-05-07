@@ -177,11 +177,9 @@
                                 <br /> <br /> <br />
                                 <!-- 交卷部分開始 -->
                                 @*<button class="btn btn-primary btn-block">提交</button>*@
-                                <div class="form-group">
-                                    @*<input type="submit" value="提交" class="btn btn-primary btn-block" />*@
-                                    <button class="btn btn-primary btn-block" id="btnSubmit">提交</button>
-                                    
-                                </div>
+                            <div class="form-group">                                
+                                <button type="button" class="btn btn-warning btn-block" >@Html.ActionLink("交卷", "CalcScore", "SExamIndex", new { stuId = 5, epId = Model.FExamPaperId }, new { onclick = "return confirm('確定要交卷嗎?')" })</button>
+                            </div>
                                 <!-- 交卷部分结束 -->
                             </div>
                             <!-- 面板结束-->
@@ -206,9 +204,9 @@
     <script>
 
 
-        $("#btnSubmit").click(function () {
-            confirm("確定要交卷嗎?");
-        })
+        //$("#btnSubmit").click(function () {
+        //    confirm("確定要交卷嗎?");
+        //})
 
 
 
