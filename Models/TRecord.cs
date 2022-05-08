@@ -15,7 +15,6 @@ namespace ISpanSTA.Models
         public int? FChoose { get; set; }
 
         public virtual TExaminationPaper FExamPaper { get; set; }
-        public virtual TStudentFullInfo FStudent { get; set; }
         public virtual TSuject FSuject { get; set; }
     }
 }

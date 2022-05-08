@@ -14,9 +14,9 @@ namespace ISpanSTA.Controllers
 {
     public class TExamPaperController : Controller
     {
-        private readonly dbIspanStudentSystemContext _context;
+        private readonly IspanStudentSystemContext _context;
 
-        public TExamPaperController(dbIspanStudentSystemContext context)
+        public TExamPaperController(IspanStudentSystemContext context)
         {
             _context = context;
         }

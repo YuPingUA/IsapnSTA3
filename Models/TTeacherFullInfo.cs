@@ -10,7 +10,6 @@ namespace ISpanSTA.Models
         public TTeacherFullInfo()
         {
             TArrangeCourseInfos = new HashSet<TArrangeCourseInfo>();
-            TEvaluationHeaders = new HashSet<TEvaluationHeader>();
         }
 
         public int FTeacherId { get; set; }
@@ -18,6 +17,5 @@ namespace ISpanSTA.Models
         public string FEmail { get; set; }
 
         public virtual ICollection<TArrangeCourseInfo> TArrangeCourseInfos { get; set; }
-        public virtual ICollection<TEvaluationHeader> TEvaluationHeaders { get; set; }
     }
 }

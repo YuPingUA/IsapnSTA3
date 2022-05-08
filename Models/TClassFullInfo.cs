@@ -10,7 +10,6 @@ namespace ISpanSTA.Models
         public TClassFullInfo()
         {
             TArrangeCourseInfos = new HashSet<TArrangeCourseInfo>();
-            TEvaluationHeaders = new HashSet<TEvaluationHeader>();
             TExaminationPapers = new HashSet<TExaminationPaper>();
             TStudentFullInfos = new HashSet<TStudentFullInfo>();
         }
@@ -20,13 +19,12 @@ namespace ISpanSTA.Models
         public string FClassPeriod { get; set; }
         public string FMentorName { get; set; }
         public string FClassroom { get; set; }
-        public DateTime FClassStartTime { get; set; }
-        public DateTime FClassEndTime { get; set; }
+        public DateTime? FClassStartTime { get; set; }
+        public DateTime? FClassEndTime { get; set; }
 
         public virtual TClassCategory FClassNavigation { get; set; }
         public virtual TClassroomFullInfo FClassroomNavigation { get; set; }
         public virtual ICollection<TArrangeCourseInfo> TArrangeCourseInfos { get; set; }
-        public virtual ICollection<TEvaluationHeader> TEvaluationHeaders { get; set; }
         public virtual ICollection<TExaminationPaper> TExaminationPapers { get; set; }
         public virtual ICollection<TStudentFullInfo> TStudentFullInfos { get; set; }
     }

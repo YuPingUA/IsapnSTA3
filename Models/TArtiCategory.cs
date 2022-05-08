@@ -9,14 +9,12 @@ namespace ISpanSTA.Models
     {
         public TArtiCategory()
         {
-            TArtiSubCategories = new HashSet<TArtiSubCategory>();
-            TArticleInfos = new HashSet<TArticleInfo>();
+            TArticleInFos = new HashSet<TArticleInFo>();
         }
 
         public int FCategoryNumber { get; set; }
         public string FCategoryName { get; set; }
 
-        public virtual ICollection<TArtiSubCategory> TArtiSubCategories { get; set; }
-        public virtual ICollection<TArticleInfo> TArticleInfos { get; set; }
+        public virtual ICollection<TArticleInFo> TArticleInFos { get; set; }
     }
 }

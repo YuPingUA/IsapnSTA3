@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Efr6Z7ksPvgp30skB9xFjphqB/QIaIKWHnG2dMsUKMhX4oK5QWdI0CTfAqwT3U8EOyFgoW1/aWXWVjNo6hzU3g==",
+  "dgSpecHash": "aFmyxsza/fzkGlhZwC8nfN5o+un0w+s1o9YascTSs3zSp6BfnXgaDsSPksC5fFhw3Px5Lt2XL6cy04ID+9Vkew==",
   "success": true,
-  "projectFilePath": "E:\\專題製作第二組-7\\IsapnSTA core-20220413T062834Z-001\\IsapnSTA core\\ISpanSTA\\ISpanSTA.csproj",
+  "projectFilePath": "E:\\專題製作第二組-5\\IsapnSTA core-20220413T062834Z-001\\IsapnSTA core\\ISpanSTA\\ISpanSTA.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Student\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Student\\.nuget\\packages\\jetbrains.annotations\\2021.1.0\\jetbrains.annotations.2021.1.0.nupkg.sha512",

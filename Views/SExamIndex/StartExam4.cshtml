@@ -24,8 +24,7 @@
                                     for (int i = 0; i < @Model.subject.Count; i++)
                                     {
                                         count++;
-                                        <div id="Q:@count" class="Qc">
-                                            <input type="text" style="display:none" value="@count"/>
+                                        <div id="Q:@count">
                                             <div class="card mb-3">
                                                 <div class="card-header" id="Q:@count">
                                                     <div class="row">
@@ -42,7 +41,7 @@
                                                         <div class="col-md-12">
                                                             <br /><br />
                                                             <div id="text" class="row">
-                                                                <input type="hidden"  value="@Model.subject[i].FSujectId" class="form-control" />
+                                                                <input type="hidden" asp-for="@Model.subject[i].FSujectId" class="form-control" />
                                                                 <a class="font-weight-bold">Q @count：@Model.subject[i].FQuestion</a>
                                                             </div>
                                                             <br />
@@ -55,29 +54,29 @@
 
                                                             <div id="option">
                                                                 <div class="form-check">
-                                                                    <input class="form-check-input" type="radio"
+                                                                    <input asp-for="record[i].FChoose" class="form-check-input" type="radio"
                                                                            id="exampleRadios1" value="1" name="FChoose_@count" style="margin:4px">
                                                                     <label class="form-check-label" for="exampleRadios1">
                                                                         A：@Model.subject[i].FOption1
                                                                     </label>
                                                                 </div>
                                                                 <div class="form-check">
-                                                                    <input class="form-check-input" type="radio"
+                                                                    <input asp-for="record[i].FChoose" class="form-check-input" type="radio"
                                                                            id="exampleRadios2" value="2" name="FChoose_@count" style="margin:4px">
                                                                     <label class="form-check-label" for="exampleRadios2">
                                                                         B：@Model.subject[i].FOption2
                                                                     </label>
                                                                 </div>
                                                                 <div class="form-check">
-                                                                    <input class="form-check-input" type="radio"
-                                                                           id="exampleRadios3" value="3" name="FChoose_@count" style="margin:4px">
+                                                                    <input asp-for="record[i].FChoose" class="form-check-input" type="radio"
+                                                                           id="exampleRadios1" value="3" name="FChoose_@count" style="margin:4px">
                                                                     <label class="form-check-label" for="exampleRadios1">
                                                                         C：@Model.subject[i].FOption3
                                                                     </label>
                                                                 </div>
                                                                 <div class="form-check">
-                                                                    <input class="form-check-input" type="radio"
-                                                                           id="exampleRadios4" value="4" name="FChoose_@count" style="margin:4px">
+                                                                    <input asp-for="record[i].FChoose" class="form-check-input" type="radio"
+                                                                           id="exampleRadios1" value="4" name="FChoose_@count" style="margin:4px">
                                                                     <label class="form-check-label" for="exampleRadios1">
                                                                         D：@Model.subject[i].FOption4
                                                                     </label>
@@ -178,9 +177,9 @@
                                 <br /> <br /> <br />
                                 <!-- 交卷部分開始 -->
                                 @*<button class="btn btn-primary btn-block">提交</button>*@
-                            <div class="form-group">                                
-                                <button type="button" class="btn btn-warning btn-block" >@Html.ActionLink("交卷", "CalcScore", "SExamIndex", new { stuId = 5, epId = Model.examp.FExamPaperId }, new { onclick = "return confirm('確定要交卷嗎?')" })</button>
-                            </div>
+                                <div class="form-group">
+                                    <input type="submit" value="提交" class="btn btn-primary btn-block" />
+                                </div>
                                 <!-- 交卷部分结束 -->
                             </div>
                             <!-- 面板结束-->
@@ -193,74 +192,27 @@
     </div>
 </div>
 
-
-    <input type="hidden" id="FStudentId" name="FStudentId" />
-    <input type="hidden" id="FExamPaperId" name="FExamPaperId" />
-    <input type="hidden" id="FSujectId" name="FSujectId" />
-    <input type="hidden" id="FChoose" name="FChoose" />
-
-
-
 @section Scripts {
     <script>
 
 
-        //$("#btnSubmit").click(function () {
-        //    confirm("確定要交卷嗎?");
-        //})
+            //function radioChecked() {
+            //    $("input[type='radio']").each(function (i) {
+            //        if ($(this).attr("name") != 'unit') {
+            //            if ($(this).is(":checked")) {
+            //                count++;
+            //                console.log('选中了' + count);
+            //            }
+            //        }
+            //    });
 
+            //}
 
-
-
-        $(".Qc").click(function () {
-           var num = $(this).find("input").val();
-            $(`#${num}`).css("background-color", "red");
+        $(".form-check").find("input").click(function () {
+            console.log("123");
+            $("#1").css("background-color", "red");
         })
 
-
-        //$(".form-check-input").click(function () {
-
-        //    console.log(($(this).val()));
-
-        //})
-
-
-
-
-        $(".form-check-input").click(function () {
-
-            //console.log(($(this).val()));
-            var aa = $(this).parent().parent().parent().prev().find("input").val();
-
-            $('#FStudentId').val(@Model.student.FStudentNumber);
-            $('#FExamPaperId').val(@Model.examp.FExamPaperId);
-            $('#FSujectId').val(aa);
-            $('#FChoose').val($(this).val());
-
-
-            console.log($("#FStudentId").val());
-            console.log($("#FExamPaperId").val());
-            console.log($("#FSujectId").val());
-            console.log($("#FChoose").val());
-
-
-            var json = ({
-                FStudentId: $('#FStudentId').val(),
-                FExamPaperId: $('#FExamPaperId').val(),
-                FSujectId: $('#FSujectId').val(),
-                FChoose: $('#FChoose').val()
-            });
-            console.log(json);
-
-
-              $.ajax({
-                url: "@Url.Content("~/SExamIndex/StartExam4")",
-                type: "post",
-                data:json,
-            })
-
-
-        });
 
 
 

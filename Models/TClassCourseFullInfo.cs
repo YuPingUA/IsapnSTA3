@@ -11,7 +11,6 @@ namespace ISpanSTA.Models
         {
             TArrangeCourseInfos = new HashSet<TArrangeCourseInfo>();
             TCategories = new HashSet<TCategory>();
-            TEvaluationHeaders = new HashSet<TEvaluationHeader>();
             TExaminationPapers = new HashSet<TExaminationPaper>();
             TSujects = new HashSet<TSuject>();
             TTeacherCourseFullInfos = new HashSet<TTeacherCourseFullInfo>();
@@ -25,7 +24,6 @@ namespace ISpanSTA.Models
         public virtual TClassCategory FClassNavigation { get; set; }
         public virtual ICollection<TArrangeCourseInfo> TArrangeCourseInfos { get; set; }
         public virtual ICollection<TCategory> TCategories { get; set; }
-        public virtual ICollection<TEvaluationHeader> TEvaluationHeaders { get; set; }
         public virtual ICollection<TExaminationPaper> TExaminationPapers { get; set; }
         public virtual ICollection<TSuject> TSujects { get; set; }
         public virtual ICollection<TTeacherCourseFullInfo> TTeacherCourseFullInfos { get; set; }

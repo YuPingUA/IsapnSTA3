@@ -7591,11 +7591,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\專題製作第二組-7\\IsapnSTA core-20220413T062834Z-001\\IsapnSTA core\\ISpanSTA\\ISpanSTA.csproj",
+      "projectUniqueName": "E:\\專題製作第二組-5\\IsapnSTA core-20220413T062834Z-001\\IsapnSTA core\\ISpanSTA\\ISpanSTA.csproj",
       "projectName": "ISpanSTA",
-      "projectPath": "E:\\專題製作第二組-7\\IsapnSTA core-20220413T062834Z-001\\IsapnSTA core\\ISpanSTA\\ISpanSTA.csproj",
+      "projectPath": "E:\\專題製作第二組-5\\IsapnSTA core-20220413T062834Z-001\\IsapnSTA core\\ISpanSTA\\ISpanSTA.csproj",
       "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
-      "outputPath": "E:\\專題製作第二組-7\\IsapnSTA core-20220413T062834Z-001\\IsapnSTA core\\ISpanSTA\\obj\\",
+      "outputPath": "E:\\專題製作第二組-5\\IsapnSTA core-20220413T062834Z-001\\IsapnSTA core\\ISpanSTA\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

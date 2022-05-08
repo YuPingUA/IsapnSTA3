@@ -9,11 +9,8 @@ namespace ISpanSTA.Models
     {
         public TStudentFullInfo()
         {
-            TEvaluationReviewHeaders = new HashSet<TEvaluationReviewHeader>();
             TLeaveInfos = new HashSet<TLeaveInfo>();
             TPunchInfos = new HashSet<TPunchInfo>();
-            TRecords = new HashSet<TRecord>();
-            TScores = new HashSet<TScore>();
         }
 
         public int FStudentNumber { get; set; }
@@ -24,13 +21,10 @@ namespace ISpanSTA.Models
         public string FAccount { get; set; }
         public string FPassword { get; set; }
         public string FPhoneNumber { get; set; }
-        public string FHeadShot { get; set; }
+        public byte[] FHeadShot { get; set; }
 
         public virtual TClassFullInfo FClassPeriodNavigation { get; set; }
-        public virtual ICollection<TEvaluationReviewHeader> TEvaluationReviewHeaders { get; set; }
         public virtual ICollection<TLeaveInfo> TLeaveInfos { get; set; }
         public virtual ICollection<TPunchInfo> TPunchInfos { get; set; }
-        public virtual ICollection<TRecord> TRecords { get; set; }
-        public virtual ICollection<TScore> TScores { get; set; }
     }
 }

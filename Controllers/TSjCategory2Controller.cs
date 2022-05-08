@@ -11,9 +11,9 @@ namespace ISpanSTA.Controllers
 {
     public class TSjCategory2Controller : Controller
     {
-        private readonly dbIspanStudentSystemContext _context;
+        private readonly IspanStudentSystemContext _context;
 
-        public TSjCategory2Controller(dbIspanStudentSystemContext context)
+        public TSjCategory2Controller(IspanStudentSystemContext context)
         {
             _context = context;
         }

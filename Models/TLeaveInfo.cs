@@ -11,8 +11,8 @@ namespace ISpanSTA.Models
         public int FStudentNumber { get; set; }
         public string FLeave { get; set; }
         public DateTime? FLeaveDate { get; set; }
-        public DateTime? FLeaveStart { get; set; }
-        public DateTime? FLeaveEnd { get; set; }
+        public decimal? FLeaveStart { get; set; }
+        public decimal? FLeaveEnd { get; set; }
         public int? FLeaveHours { get; set; }
         public string FStatus { get; set; }
 

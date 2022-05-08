@@ -5,29 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="wwwroot\burgerking-main\js\main.js" />
-    <None Include="wwwroot\burgerking-main\lib\easing\easing.js" />
-    <None Include="wwwroot\burgerking-main\lib\easing\easing.min.js" />
-    <None Include="wwwroot\burgerking-main\lib\flaticon\font\Flaticon.svg" />
-    <None Include="wwwroot\burgerking-main\lib\flaticon\font\Flaticon.woff2" />
-    <None Include="wwwroot\burgerking-main\lib\flaticon\font\_flaticon.scss" />
-    <None Include="wwwroot\burgerking-main\lib\flaticon\license\license.pdf" />
-    <None Include="wwwroot\burgerking-main\lib\owlcarousel\LICENSE" />
-    <None Include="wwwroot\burgerking-main\lib\owlcarousel\owl.carousel.js" />
-    <None Include="wwwroot\burgerking-main\lib\owlcarousel\owl.carousel.min.js" />
-    <None Include="wwwroot\burgerking-main\lib\tempusdominus\js\moment-timezone.min.js" />
-    <None Include="wwwroot\burgerking-main\lib\tempusdominus\js\moment.min.js" />
-    <None Include="wwwroot\burgerking-main\lib\tempusdominus\js\tempusdominus-bootstrap-4.js" />
-    <None Include="wwwroot\burgerking-main\lib\tempusdominus\js\tempusdominus-bootstrap-4.min.js" />
-    <None Include="wwwroot\burgerking-main\mail\contact.js" />
-    <None Include="wwwroot\burgerking-main\mail\contact.php" />
-    <None Include="wwwroot\burgerking-main\mail\jqBootstrapValidation.min.js" />
-    <None Include="wwwroot\mail\contact.js" />
-    <None Include="wwwroot\mail\contact.php" />
-    <None Include="wwwroot\mail\jqBootstrapValidation.min.js" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="jQuery" Version="3.6.0" />
     <PackageReference Include="jQuery.Validation" Version="1.19.3" />
     <PackageReference Include="Microsoft.aspnetcore.staticfiles" Version="2.2.0" />

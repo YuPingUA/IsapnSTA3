@@ -10,7 +10,6 @@ namespace ISpanSTA.Models
         public int FEvaluationDetailId { get; set; }
         public int FEvaluationId { get; set; }
         public int FEvaluationQid { get; set; }
-        public int? FEvaluationQtypeId { get; set; }
 
         public virtual TEvaluationHeader FEvaluation { get; set; }
         public virtual TEvaluationQuestionDetail FEvaluationQ { get; set; }

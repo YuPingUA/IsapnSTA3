@@ -14,9 +14,9 @@ namespace ISpanSTA.Controllers
 {
     public class QuestionBankController : Controller
     {
-        private readonly dbIspanStudentSystemContext _context;
+        private readonly IspanStudentSystemContext _context;
 
-        public QuestionBankController(dbIspanStudentSystemContext context)
+        public QuestionBankController(IspanStudentSystemContext context)
         {
             _context = context;
         }
@@ -143,7 +143,7 @@ namespace ISpanSTA.Controllers
         {
             try
             {
-               TSuject ts = new TSuject();
+                TSuject ts = new TSuject();
             ts.FCourseId = sj.FCourseId;
             ts.FCategoryId = sj.FCategoryId;
             ts.FTypeId = sj.FTypeId;
@@ -259,7 +259,22 @@ namespace ISpanSTA.Controllers
             }
             return RedirectToAction("Index");            
         }
-              
+
+        //// POST: QuestionBankController/Delete/5
+        //[HttpPost]
+        //[ValidateAntiForgeryToken]
+        //public ActionResult Delete(int id, IFormCollection collection)
+        //{
+        //    try
+        //    {
+        //        return RedirectToAction(nameof(Index));
+        //    }
+        //    catch
+        //    {
+        //        return View();
+        //    }
+        //}
+
 
         //讀出不重複的課程名稱
         public IActionResult courseFilter()
@@ -286,6 +301,12 @@ namespace ISpanSTA.Controllers
             return Json(categorys);
         //
     }
+
+
+
+
+
+
 
 
 
