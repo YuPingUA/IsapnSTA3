@@ -4,9 +4,23 @@
     ViewData["Title"] = "Create";
 }
 
-<div class="container mt-5">
+<style>
+    .super_container {
+        background-color: beige;
+    }
+
+    #divSty {
+        border: 5px solid #666;
+        border-radius: 20px;
+        background-color: white;
+        box-shadow: 6px 10px 6px #000;
+    }
+</style>
+
+<div class="container mt-5" id="divSty">
+    <br />
     <div>
-        <h3><a asp-action="Index"><<返回</a></h3>
+        <h3><a asp-action="Index"><i class="fas fa-angle-double-left">返回</i></a></h3>
     </div>
     <br />
     <h1>新增試卷</h1>
@@ -66,7 +80,7 @@
                             <span asp-validation-for="FEnd" class="text-danger"></span>
                         </div>
                     </div>
-                </div>  
+                </div>
                 <div class="row">
                     <div class="col-4">
                         <div class="form-group">
@@ -80,7 +94,7 @@
                             <label asp-for="FOrder" class="control-label"></label>
                             <input asp-for="FOrder" class="form-control" />
                             <span asp-validation-for="FOrder" class="text-danger"></span>
-                        </div>  
+                        </div>
                     </div>
                     <div class="col-4">
                         <div class="form-group">
@@ -89,17 +103,17 @@
                             <span asp-validation-for="FReveal" class="text-danger"></span>
                         </div>
                     </div>
-                </div>               
-                <select class="form-select" multiple  size="10" aria-label="size 10 select example" name="addSj" id="addSj" style="width:100%" >
-                   
-                </select>
-                
-                <select class="form-select" size="10" aria-label="size 10 select example" id="showSj" style="width:100%" >
-                    
-                </select>
-                <div class="form-group">
-                    <input type="submit" value="新增" class="btn btn-primary" />
                 </div>
+                <select class="form-select" multiple size="10" aria-label="size 10 select example" name="addSj" id="addSj" style="width:100%">
+                </select>
+
+                <select class="form-select" size="10" aria-label="size 10 select example" id="showSj" style="width:100%">
+                </select>
+                <br /> <br />
+                <div class="form-group">
+                    <input type="submit" value="新增" class="btn btn-primary btn-block" />
+                </div>
+                <br />
             </form>
         </div>
     </div>

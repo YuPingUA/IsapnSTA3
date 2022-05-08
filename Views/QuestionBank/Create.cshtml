@@ -3,9 +3,23 @@
 @{
     ViewData["Title"] = "Create";
 }
-<div class="container mt-5">
+
+<style>
+    .super_container {
+        background-color: beige;
+    }
+    #divSty {
+        border: 5px solid #666;
+        border-radius: 20px;
+        background-color: white;
+        box-shadow: 6px 10px 6px #000;
+    }
+</style>
+
+<div class="container mt-5" id="divSty">
+    <br />
     <div>
-        <h3><a asp-action="Index"><<返回</a></h3>
+        <h3><a asp-action="Index"><i class="fas fa-angle-double-left">返回</i></a></h3>
     </div>
     <br />
     <h1>新增題目</h1>

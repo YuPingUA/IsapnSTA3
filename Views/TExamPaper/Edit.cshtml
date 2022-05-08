@@ -11,27 +11,39 @@
         width: 210px;
         
     }
+
+    .super_container {
+        background-color: beige;
+    }
+
+    #divSty {
+        border: 5px solid #666;
+        border-radius: 20px;
+        background-color: white;
+        box-shadow: 6px 10px 6px #000;
+    }
 </style>
 
-<div class="container mt-5">
+<div class="container mt-5" id="divSty">
+    <br />
     <div>
-        <h3><a asp-action="Index"><<返回</a></h3>
+        <h3><a asp-action="Index"><i class="fas fa-angle-double-left">返回</i></a></h3>
     </div>
     <br />
     <h1>編輯試卷</h1>
 
-    
- 
-    
+
+
+
     <div>
         @*題號:@ViewBag.sjIdBList[0];@ViewBag.sjIdBList[1];@ViewBag.sjIdBList[2]*@
     </div>
     @*@for (int i = 0; i < list.Count; i++)
-    {
-        <div>
-            @list[i].ToString()
-        </div>
-    }*@
+        {
+            <div>
+                @list[i].ToString()
+            </div>
+        }*@
 
     <hr />
 
@@ -39,9 +51,9 @@
         <div class="col-12">
             <form asp-action="Edit">
                 <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-                <input asp-for="FExamPaperId" class="form-control" />
+                <input type="hidden" asp-for="FExamPaperId" class="form-control" />
                 @*<input type="hidden" asp-for="FEpDetailId" class="form-control" />
-                <input type="hidden" asp-for="FSujectId" class="form-control" />*@
+                    <input type="hidden" asp-for="FSujectId" class="form-control" />*@
                 <div class="row">
                     <div class="col-6">
                         <div class="form-group">
@@ -62,10 +74,10 @@
                 </div>
 
                 @*<div class="form-group">
-            <label asp-for="FCourseName" class="control-label"></label>
-            <input asp-for="FCourseName" class="form-control" />
-            <span asp-validation-for="FCourseName" class="text-danger"></span>
-        </div>*@
+                        <label asp-for="FCourseName" class="control-label"></label>
+                        <input asp-for="FCourseName" class="form-control" />
+                        <span asp-validation-for="FCourseName" class="text-danger"></span>
+                    </div>*@
                 <div class="form-group">
                     <label asp-for="FName" class="control-label"></label>
                     <input asp-for="FName" class="form-control" />
@@ -120,15 +132,17 @@
 
                 <select class="form-select" multiple size="10" aria-label="size 10 select example" name="showSj" id="showSj" style="width:100%">
                 </select>
+                <br /><br />
                 <div class="form-group">
-                    <input type="submit" value="確認" class="btn btn-primary" />
+                    <input type="submit" value="確認" class="btn btn-primary btn-block" />
                 </div>
+                <br />
             </form>
         </div>
     </div>
 
-
 </div>
+<br />
 
 @section Scripts {
 
