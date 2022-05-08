@@ -24,7 +24,8 @@
                                     for (int i = 0; i < @Model.subject.Count; i++)
                                     {
                                         count++;
-                                        <div id="Q:@count">
+                                        <div id="Q:@count" class="Qc">
+                                            <input type="text" style="display:none" value="@count"/>
                                             <div class="card mb-3">
                                                 <div class="card-header" id="Q:@count">
                                                     <div class="row">
@@ -178,7 +179,7 @@
                                 <!-- 交卷部分開始 -->
                                 @*<button class="btn btn-primary btn-block">提交</button>*@
                             <div class="form-group">                                
-                                <button type="button" class="btn btn-warning btn-block" >@Html.ActionLink("交卷", "CalcScore", "SExamIndex", new { stuId = 5, epId = Model.FExamPaperId }, new { onclick = "return confirm('確定要交卷嗎?')" })</button>
+                                <button type="button" class="btn btn-warning btn-block" >@Html.ActionLink("交卷", "CalcScore", "SExamIndex", new { stuId = 5, epId = Model.examp.FExamPaperId }, new { onclick = "return confirm('確定要交卷嗎?')" })</button>
                             </div>
                                 <!-- 交卷部分结束 -->
                             </div>
@@ -211,10 +212,10 @@
 
 
 
-        //$(".form-check").find("input").click(function () {
-        //    console.log("123");
-        //    $("#1").css("background-color", "red");
-        //})
+        $(".Qc").click(function () {
+           var num = $(this).find("input").val();
+            $(`#${num}`).css("background-color", "red");
+        })
 
 
         //$(".form-check-input").click(function () {

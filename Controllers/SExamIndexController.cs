@@ -97,7 +97,7 @@ namespace ISpanSTA.Controllers
                 SEVM.subject = data;
 
                 SEVM.student = _context.TStudentFullInfos.FirstOrDefault(s => s.FStudentNumber == 5);//這邊要改判斷哪位學生 
-
+                
                 SEVM.examp = _context.TExaminationPapers.FirstOrDefault(ep => ep.FExamPaperId == id);               
                  
                     return View(SEVM);
